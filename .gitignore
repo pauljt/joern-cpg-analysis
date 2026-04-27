@@ -1,0 +1,20 @@
+# macOS
+.DS_Store
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+
+# Claude Code local state
+.claude/
+
+# CPG binaries (large, rebuild with /cpg-build)
+workspace/
+*.bin
+*.bin.tmp
+
+# Environment / secrets
+.env
+*.key

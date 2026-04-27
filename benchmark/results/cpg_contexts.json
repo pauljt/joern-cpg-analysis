@@ -1,0 +1,2351 @@
+{
+  "BenchmarkTest00596": {
+    "sources": [],
+    "sinks": [
+      "L77 println: getWriter().println(\"Your results are: <br>\")",
+      "L86 println: getWriter().println(\"No results returned for query: \" + org.owasp.esapi.ESAPI.encoder().encodeForHTM",
+      "L80 println: getWriter().println(org.owasp.esapi.ESAPI.encoder().encodeForHTML(o.toString()) + \"<br>\")",
+      "L92 println: getWriter().println(\"Error processing request.\")"
+    ]
+  },
+  "BenchmarkTest00043": {
+    "sources": [],
+    "sinks": [
+      "L54 executeUpdate: statement.executeUpdate(sql, new int[] { 1, 2 })",
+      "L58 println: getWriter().println(\"Error processing request.\")"
+    ]
+  },
+  "BenchmarkTest01463": {
+    "sources": [],
+    "sinks": [
+      "L68 prepareCall: connection.prepareCall(sql, java.sql.ResultSet.TYPE_FORWARD_ONLY, java.sql.ResultSet.CONCUR_READ_ONL",
+      "L73 executeQuery: statement.executeQuery()",
+      "L77 println: getWriter().println(\"Error processing request.\")"
+    ]
+  },
+  "BenchmarkTest01313": {
+    "sources": [
+      "L43 getParameter: getParameter(\"BenchmarkTest01313\")"
+    ],
+    "sinks": [
+      "L53 executeUpdate: statement.executeUpdate(sql)",
+      "L57 println: getWriter().println(\"Error processing request.\")"
+    ]
+  },
+  "BenchmarkTest01210": {
+    "sources": [
+      "L44 getHeaders: getHeaders(\"BenchmarkTest01210\")"
+    ],
+    "sinks": [
+      "L66 execute: statement.execute()",
+      "L61 prepareStatement: connection.prepareStatement(sql, java.sql.ResultSet.TYPE_FORWARD_ONLY, java.sql.ResultSet.CONCUR_REA",
+      "L70 println: getWriter().println(\"Error processing request.\")"
+    ]
+  },
+  "BenchmarkTest00762": {
+    "sources": [],
+    "sinks": [
+      "L61 prepareCall: connection.prepareCall(sql, java.sql.ResultSet.TYPE_FORWARD_ONLY, java.sql.ResultSet.CONCUR_READ_ONL",
+      "L66 executeQuery: statement.executeQuery()",
+      "L70 println: getWriter().println(\"Error processing request.\")"
+    ]
+  },
+  "BenchmarkTest00590": {
+    "sources": [],
+    "sinks": [
+      "L73 prepareCall: connection.prepareCall(sql, java.sql.ResultSet.TYPE_FORWARD_ONLY, java.sql.ResultSet.CONCUR_READ_ONL",
+      "L78 executeQuery: statement.executeQuery()",
+      "L82 println: getWriter().println(\"Error processing request.\")"
+    ]
+  },
+  "BenchmarkTest00438": {
+    "sources": [
+      "L43 getParameter: getParameter(\"BenchmarkTest00438\")"
+    ],
+    "sinks": [
+      "L58 execute: statement.execute(sql, new String[] { \"username\", \"password\" })",
+      "L62 println: getWriter().println(\"Error processing request.\")"
+    ]
+  },
+  "BenchmarkTest02272": {
+    "sources": [],
+    "sinks": [
+      "L56 println: getWriter().println(\"No results can be displayed for query: \" + org.owasp.esapi.ESAPI.encoder().enco",
+      "L66 println: getWriter().println(\"Error processing request.\")"
+    ]
+  },
+  "BenchmarkTest00103": {
+    "sources": [
+      "L41 getRequestURI: getRequestURI()",
+      "L54 getCookies: getCookies()"
+    ],
+    "sinks": [
+      "L39 setSecure: setSecure(true)",
+      "L43 addCookie: addCookie(userCookie)",
+      "L79 println: getWriter().println(\"Your results are: \")",
+      "L81 println: getWriter().println(org.owasp.esapi.ESAPI.encoder().encodeForHTML(results.toString()))",
+      "L84 println: getWriter().println(\"No results returned for query: \" + org.owasp.esapi.ESAPI.encoder().encodeForHTM",
+      "L90 println: getWriter().println(\"Error processing request.\")"
+    ]
+  },
+  "BenchmarkTest00190": {
+    "sources": [
+      "L44 getHeader: getHeader(\"BenchmarkTest00190\")",
+      "L45 getHeader: getHeader(\"BenchmarkTest00190\")"
+    ],
+    "sinks": [
+      "L69 prepareCall: connection.prepareCall(sql, java.sql.ResultSet.TYPE_FORWARD_ONLY, java.sql.ResultSet.CONCUR_READ_ONL",
+      "L73 executeQuery: statement.executeQuery()",
+      "L77 println: getWriter().println(\"Error processing request.\")"
+    ]
+  },
+  "BenchmarkTest00340": {
+    "sources": [
+      "L44 getHeaders: getHeaders(\"BenchmarkTest00340\")"
+    ],
+    "sinks": [
+      "L78 println: getWriter().println(\"No results can be displayed for query: \" + org.owasp.esapi.ESAPI.encoder().enco",
+      "L86 println: getWriter().println(\"Error processing request.\")"
+    ]
+  },
+  "BenchmarkTest00838": {
+    "sources": [
+      "L43 getQueryString: getQueryString()"
+    ],
+    "sinks": [
+      "L48 println: getWriter().println(\"getQueryString() couldn't find expected parameter '\" + \"BenchmarkTest00838\" + \"",
+      "L103 execute: statement.execute()",
+      "L97 prepareStatement: connection.prepareStatement(sql, java.sql.ResultSet.TYPE_FORWARD_ONLY, java.sql.ResultSet.CONCUR_REA",
+      "L107 println: getWriter().println(\"Error processing request.\")"
+    ]
+  },
+  "BenchmarkTest00925": {
+    "sources": [],
+    "sinks": [
+      "L58 execute: statement.execute()",
+      "L56 prepareStatement: connection.prepareStatement(sql)",
+      "L62 println: getWriter().println(\"Error processing request.\")"
+    ]
+  },
+  "BenchmarkTest01804": {
+    "sources": [],
+    "sinks": [
+      "L56 execute: statement.execute()",
+      "L54 prepareStatement: connection.prepareStatement(sql)",
+      "L60 println: getWriter().println(\"Error processing request.\")"
+    ]
+  },
+  "BenchmarkTest01965": {
+    "sources": [
+      "L44 getHeader: getHeader(\"BenchmarkTest01965\")",
+      "L45 getHeader: getHeader(\"BenchmarkTest01965\")"
+    ],
+    "sinks": [
+      "L60 println: getWriter().println(\"Your results are: \" + String.valueOf(results))",
+      "L62 println: getWriter().println(\"No results returned for query: \" + org.owasp.esapi.ESAPI.encoder().encodeForHTM",
+      "L68 println: getWriter().println(\"Error processing request.\")"
+    ]
+  },
+  "BenchmarkTest00114": {
+    "sources": [
+      "L41 getRequestURI: getRequestURI()",
+      "L54 getCookies: getCookies()"
+    ],
+    "sinks": [
+      "L39 setSecure: setSecure(true)",
+      "L43 addCookie: addCookie(userCookie)",
+      "L78 executeUpdate: statement.executeUpdate(sql, new int[] { 1, 2 })",
+      "L82 println: getWriter().println(\"Error processing request.\")"
+    ]
+  },
+  "BenchmarkTest01818": {
+    "sources": [],
+    "sinks": [
+      "L54 execute: statement.execute(sql, new int[] { 1, 2 })",
+      "L58 println: getWriter().println(\"Error processing request.\")"
+    ]
+  },
+  "BenchmarkTest00766": {
+    "sources": [],
+    "sinks": [
+      "L62 println: getWriter().println(\"Your results are: \" + String.valueOf(results))",
+      "L64 println: getWriter().println(\"No results returned for query: \" + org.owasp.esapi.ESAPI.encoder().encodeForHTM",
+      "L70 println: getWriter().println(\"Error processing request.\")"
+    ]
+  },
+  "BenchmarkTest02279": {
+    "sources": [],
+    "sinks": [
+      "L59 println: getWriter().println(\"Your results are: \" + String.valueOf(results))",
+      "L61 println: getWriter().println(\"No results returned for query: \" + org.owasp.esapi.ESAPI.encoder().encodeForHTM",
+      "L67 println: getWriter().println(\"Error processing request.\")"
+    ]
+  },
+  "BenchmarkTest02040": {
+    "sources": [
+      "L44 getHeaders: getHeaders(\"BenchmarkTest02040\")",
+      "L68 getCookies: getCookies()",
+      "L89 getRequestURI: getRequestURI()"
+    ],
+    "sinks": [
+      "L102 println: getWriter().println(\"Weak Randomness Test java.lang.Math.random() executed\")",
+      "L81 println: getWriter().println(\"Welcome back: \" + user + \"<br/>\")",
+      "L86 setSecure: setSecure(true)",
+      "L91 setAttribute: getSession().setAttribute(cookieName, rememberMeKey)",
+      "L92 addCookie: addCookie(rememberMe)",
+      "L93 println: getWriter().println(user + \" has been remembered with cookie: \" + rememberMe.getName() + \" whose val"
+    ]
+  },
+  "BenchmarkTest02337": {
+    "sources": [
+      "L75 getCookies: getCookies()",
+      "L95 getRequestURI: getRequestURI()"
+    ],
+    "sinks": [
+      "L109 println: getWriter().println(\"Weak Randomness Test java.util.Random.nextLong() executed\")",
+      "L62 nextLong: new java.util.Random().nextLong()",
+      "L88 println: getWriter().println(\"Welcome back: \" + user + \"<br/>\")",
+      "L93 setSecure: setSecure(true)",
+      "L97 setAttribute: getSession().setAttribute(cookieName, rememberMeKey)",
+      "L98 addCookie: addCookie(rememberMe)",
+      "L99 println: getWriter().println(user + \" has been remembered with cookie: \" + rememberMe.getName() + \" whose val"
+    ]
+  },
+  "BenchmarkTest01787": {
+    "sources": [
+      "L62 getCookies: getCookies()",
+      "L81 getRequestURI: getRequestURI()"
+    ],
+    "sinks": [
+      "L95 println: getWriter().println(\"Weak Randomness Test java.util.Random.nextInt() executed\")",
+      "L49 nextInt: new java.util.Random().nextInt()",
+      "L75 println: getWriter().println(\"Welcome back: \" + user + \"<br/>\")",
+      "L79 setSecure: setSecure(true)",
+      "L83 setAttribute: getSession().setAttribute(cookieName, rememberMeKey)",
+      "L84 addCookie: addCookie(rememberMe)",
+      "L85 println: getWriter().println(user + \" has been remembered with cookie: \" + rememberMe.getName() + \" whose val"
+    ]
+  },
+  "BenchmarkTest01279": {
+    "sources": [
+      "L43 getParameter: getParameter(\"BenchmarkTest01279\")",
+      "L61 getCookies: getCookies()",
+      "L81 getRequestURI: getRequestURI()"
+    ],
+    "sinks": [
+      "L95 println: getWriter().println(\"Weak Randomness Test java.util.Random.nextLong() executed\")",
+      "L48 nextLong: new java.util.Random().nextLong()",
+      "L74 println: getWriter().println(\"Welcome back: \" + user + \"<br/>\")",
+      "L79 setSecure: setSecure(true)",
+      "L83 setAttribute: getSession().setAttribute(cookieName, rememberMeKey)",
+      "L84 addCookie: addCookie(rememberMe)",
+      "L85 println: getWriter().println(user + \" has been remembered with cookie: \" + rememberMe.getName() + \" whose val"
+    ]
+  },
+  "BenchmarkTest00490": {
+    "sources": [
+      "L75 getCookies: getCookies()",
+      "L95 getRequestURI: getRequestURI()"
+    ],
+    "sinks": [
+      "L109 println: getWriter().println(\"Weak Randomness Test java.util.Random.nextLong() executed\")",
+      "L62 nextLong: new java.util.Random().nextLong()",
+      "L88 println: getWriter().println(\"Welcome back: \" + user + \"<br/>\")",
+      "L93 setSecure: setSecure(true)",
+      "L97 setAttribute: getSession().setAttribute(cookieName, rememberMeKey)",
+      "L98 addCookie: addCookie(rememberMe)",
+      "L99 println: getWriter().println(user + \" has been remembered with cookie: \" + rememberMe.getName() + \" whose val"
+    ]
+  },
+  "BenchmarkTest01432": {
+    "sources": [
+      "L75 getCookies: getCookies()",
+      "L94 getRequestURI: getRequestURI()"
+    ],
+    "sinks": [
+      "L108 println: getWriter().println(\"Weak Randomness Test java.util.Random.nextGaussian() executed\")",
+      "L62 nextGaussian: new java.util.Random().nextGaussian()",
+      "L88 println: getWriter().println(\"Welcome back: \" + user + \"<br/>\")",
+      "L92 setSecure: setSecure(true)",
+      "L96 setAttribute: getSession().setAttribute(cookieName, rememberMeKey)",
+      "L97 addCookie: addCookie(rememberMe)",
+      "L98 println: getWriter().println(user + \" has been remembered with cookie: \" + rememberMe.getName() + \" whose val"
+    ]
+  },
+  "BenchmarkTest01860": {
+    "sources": [
+      "L41 getRequestURI: getRequestURI()",
+      "L54 getCookies: getCookies()",
+      "L81 getCookies: getCookies()",
+      "L101 getRequestURI: getRequestURI()"
+    ],
+    "sinks": [
+      "L39 setSecure: setSecure(true)",
+      "L43 addCookie: addCookie(userCookie)",
+      "L115 println: getWriter().println(\"Weak Randomness Test java.util.Random.nextLong() executed\")",
+      "L68 nextLong: new java.util.Random().nextLong()",
+      "L94 println: getWriter().println(\"Welcome back: \" + user + \"<br/>\")",
+      "L99 setSecure: setSecure(true)",
+      "L103 setAttribute: getSession().setAttribute(cookieName, rememberMeKey)",
+      "L104 addCookie: addCookie(rememberMe)",
+      "L105 println: getWriter().println(user + \" has been remembered with cookie: \" + rememberMe.getName() + \" whose val"
+    ]
+  },
+  "BenchmarkTest00819": {
+    "sources": [
+      "L43 getQueryString: getQueryString()",
+      "L90 getCookies: getCookies()",
+      "L110 getRequestURI: getRequestURI()"
+    ],
+    "sinks": [
+      "L124 println: getWriter().println(\"Weak Randomness Test java.util.Random.nextLong() executed\")",
+      "L77 nextLong: new java.util.Random().nextLong()",
+      "L48 println: getWriter().println(\"getQueryString() couldn't find expected parameter '\" + \"BenchmarkTest00819\" + \"",
+      "L103 println: getWriter().println(\"Welcome back: \" + user + \"<br/>\")",
+      "L108 setSecure: setSecure(true)",
+      "L112 setAttribute: getSession().setAttribute(cookieName, rememberMeKey)",
+      "L113 addCookie: addCookie(rememberMe)",
+      "L114 println: getWriter().println(user + \" has been remembered with cookie: \" + rememberMe.getName() + \" whose val"
+    ]
+  },
+  "BenchmarkTest02605": {
+    "sources": [
+      "L43 getQueryString: getQueryString()",
+      "L85 getCookies: getCookies()",
+      "L105 getRequestURI: getRequestURI()"
+    ],
+    "sinks": [
+      "L119 println: getWriter().println(\"Weak Randomness Test java.util.Random.nextDouble() executed\")",
+      "L72 nextDouble: new java.util.Random().nextDouble()",
+      "L48 println: getWriter().println(\"getQueryString() couldn't find expected parameter '\" + \"BenchmarkTest02605\" + \"",
+      "L98 println: getWriter().println(\"Welcome back: \" + user + \"<br/>\")",
+      "L102 setSecure: setSecure(true)",
+      "L107 setAttribute: getSession().setAttribute(cookieName, rememberMeKey)",
+      "L108 addCookie: addCookie(rememberMe)",
+      "L109 println: getWriter().println(user + \" has been remembered with cookie: \" + rememberMe.getName() + \" whose val"
+    ]
+  },
+  "BenchmarkTest00066": {
+    "sources": [
+      "L41 getRequestURI: getRequestURI()",
+      "L54 getCookies: getCookies()",
+      "L86 getCookies: getCookies()",
+      "L107 getRequestURI: getRequestURI()"
+    ],
+    "sinks": [
+      "L39 setSecure: setSecure(true)",
+      "L43 addCookie: addCookie(userCookie)",
+      "L120 println: getWriter().println(\"Weak Randomness Test java.lang.Math.random() executed\")",
+      "L99 println: getWriter().println(\"Welcome back: \" + user + \"<br/>\")",
+      "L104 setSecure: setSecure(true)",
+      "L109 setAttribute: getSession().setAttribute(cookieName, rememberMeKey)",
+      "L110 addCookie: addCookie(rememberMe)",
+      "L111 println: getWriter().println(user + \" has been remembered with cookie: \" + rememberMe.getName() + \" whose val"
+    ]
+  },
+  "BenchmarkTest00831": {
+    "sources": [
+      "L43 getQueryString: getQueryString()",
+      "L107 getCookies: getCookies()",
+      "L127 getRequestURI: getRequestURI()"
+    ],
+    "sinks": [
+      "L144 println: getWriter().println(\"Weak Randomness Test java.security.SecureRandom.nextInt(int) executed\")",
+      "L48 println: getWriter().println(\"getQueryString() couldn't find expected parameter '\" + \"BenchmarkTest00831\" + \"",
+      "L94 nextInt: java.security.SecureRandom.getInstance(\"SHA1PRNG\").nextInt(99)",
+      "L141 println: System.out.println(\"Problem executing SecureRandom.nextInt(int) - TestCase\")",
+      "L94 getInstance: java.security.SecureRandom.getInstance(\"SHA1PRNG\")",
+      "L121 println: getWriter().println(\"Welcome back: \" + user + \"<br/>\")",
+      "L125 setSecure: setSecure(true)",
+      "L129 setAttribute: getSession().setAttribute(cookieName, rememberMeKey)",
+      "L130 addCookie: addCookie(rememberMe)",
+      "L131 println: getWriter().println(user + \" has been remembered with cookie: \" + rememberMe.getName() + \" whose val"
+    ]
+  },
+  "BenchmarkTest02078": {
+    "sources": [
+      "L44 getHeaders: getHeaders(\"BenchmarkTest02078\")",
+      "L71 getCookies: getCookies()",
+      "L92 getRequestURI: getRequestURI()"
+    ],
+    "sinks": [
+      "L109 println: getWriter().println(\"Weak Randomness Test java.security.SecureRandom.nextDouble() executed\")",
+      "L56 nextDouble: java.security.SecureRandom.getInstance(\"SHA1PRNG\").nextDouble()",
+      "L106 println: System.out.println(\"Problem executing SecureRandom.nextDouble() - TestCase\")",
+      "L56 getInstance: java.security.SecureRandom.getInstance(\"SHA1PRNG\")",
+      "L85 println: getWriter().println(\"Welcome back: \" + user + \"<br/>\")",
+      "L90 setSecure: setSecure(true)",
+      "L94 setAttribute: getSession().setAttribute(cookieName, rememberMeKey)",
+      "L95 addCookie: addCookie(rememberMe)",
+      "L96 println: getWriter().println(user + \" has been remembered with cookie: \" + rememberMe.getName() + \" whose val"
+    ]
+  },
+  "BenchmarkTest01702": {
+    "sources": [
+      "L43 getQueryString: getQueryString()",
+      "L88 getCookies: getCookies()",
+      "L109 getRequestURI: getRequestURI()"
+    ],
+    "sinks": [
+      "L126 println: getWriter().println(\"Weak Randomness Test java.security.SecureRandom.nextDouble() executed\")",
+      "L48 println: getWriter().println(\"getQueryString() couldn't find expected parameter '\" + \"BenchmarkTest01702\" + \"",
+      "L73 nextDouble: java.security.SecureRandom.getInstance(\"SHA1PRNG\").nextDouble()",
+      "L123 println: System.out.println(\"Problem executing SecureRandom.nextDouble() - TestCase\")",
+      "L73 getInstance: java.security.SecureRandom.getInstance(\"SHA1PRNG\")",
+      "L102 println: getWriter().println(\"Welcome back: \" + user + \"<br/>\")",
+      "L107 setSecure: setSecure(true)",
+      "L111 setAttribute: getSession().setAttribute(cookieName, rememberMeKey)",
+      "L112 addCookie: addCookie(rememberMe)",
+      "L113 println: getWriter().println(user + \" has been remembered with cookie: \" + rememberMe.getName() + \" whose val"
+    ]
+  },
+  "BenchmarkTest01373": {
+    "sources": [
+      "L66 getCookies: getCookies()",
+      "L86 getRequestURI: getRequestURI()"
+    ],
+    "sinks": [
+      "L103 println: getWriter().println(\"Weak Randomness Test java.security.SecureRandom.nextLong() executed\")",
+      "L53 nextLong: java.security.SecureRandom.getInstance(\"SHA1PRNG\").nextLong()",
+      "L100 println: System.out.println(\"Problem executing SecureRandom.nextLong() - TestCase\")",
+      "L53 getInstance: java.security.SecureRandom.getInstance(\"SHA1PRNG\")",
+      "L80 println: getWriter().println(\"Welcome back: \" + user + \"<br/>\")",
+      "L84 setSecure: setSecure(true)",
+      "L88 setAttribute: getSession().setAttribute(cookieName, rememberMeKey)",
+      "L89 addCookie: addCookie(rememberMe)",
+      "L90 println: getWriter().println(user + \" has been remembered with cookie: \" + rememberMe.getName() + \" whose val"
+    ]
+  },
+  "BenchmarkTest00829": {
+    "sources": [
+      "L43 getQueryString: getQueryString()",
+      "L112 getCookies: getCookies()",
+      "L132 getRequestURI: getRequestURI()"
+    ],
+    "sinks": [
+      "L48 println: getWriter().println(\"getQueryString() couldn't find expected parameter '\" + \"BenchmarkTest00829\" + \"",
+      "L93 getInstance: java.security.SecureRandom.getInstance(\"SHA1PRNG\")",
+      "L146 println: System.out.println(\"Problem executing SecureRandom.nextBytes() - TestCase\")",
+      "L149 println: getWriter().println(\"Randomness Test java.security.SecureRandom.nextBytes(byte[]) executed\")",
+      "L126 println: getWriter().println(\"Welcome back: \" + user + \"<br/>\")",
+      "L130 setSecure: setSecure(true)",
+      "L134 setAttribute: getSession().setAttribute(cookieName, rememberMeKey)",
+      "L135 addCookie: addCookie(rememberMe)",
+      "L136 println: getWriter().println(user + \" has been remembered with cookie: \" + rememberMe.getName() + \" whose val"
+    ]
+  },
+  "BenchmarkTest01078": {
+    "sources": [
+      "L44 getHeader: getHeader(\"BenchmarkTest01078\")",
+      "L45 getHeader: getHeader(\"BenchmarkTest01078\")",
+      "L67 getCookies: getCookies()",
+      "L87 getRequestURI: getRequestURI()"
+    ],
+    "sinks": [
+      "L104 println: getWriter().println(\"Weak Randomness Test java.security.SecureRandom.nextInt(int) executed\")",
+      "L54 nextInt: java.security.SecureRandom.getInstance(\"SHA1PRNG\").nextInt(99)",
+      "L101 println: System.out.println(\"Problem executing SecureRandom.nextInt(int) - TestCase\")",
+      "L54 getInstance: java.security.SecureRandom.getInstance(\"SHA1PRNG\")",
+      "L81 println: getWriter().println(\"Welcome back: \" + user + \"<br/>\")",
+      "L85 setSecure: setSecure(true)",
+      "L89 setAttribute: getSession().setAttribute(cookieName, rememberMeKey)",
+      "L90 addCookie: addCookie(rememberMe)",
+      "L91 println: getWriter().println(user + \" has been remembered with cookie: \" + rememberMe.getName() + \" whose val"
+    ]
+  },
+  "BenchmarkTest01700": {
+    "sources": [
+      "L43 getQueryString: getQueryString()",
+      "L89 getCookies: getCookies()",
+      "L109 getRequestURI: getRequestURI()"
+    ],
+    "sinks": [
+      "L127 println: getWriter().println(\"Weak Randomness Test java.security.SecureRandom.nextDouble() executed\")",
+      "L48 println: getWriter().println(\"getQueryString() couldn't find expected parameter '\" + \"BenchmarkTest01700\" + \"",
+      "L73 getInstance: java.security.SecureRandom.getInstance(\"SHA1PRNG\")",
+      "L123 println: System.out.println(\"Problem executing SecureRandom.nextDouble() - TestCase\")",
+      "L103 println: getWriter().println(\"Welcome back: \" + user + \"<br/>\")",
+      "L107 setSecure: setSecure(true)",
+      "L111 setAttribute: getSession().setAttribute(cookieName, rememberMeKey)",
+      "L112 addCookie: addCookie(rememberMe)",
+      "L113 println: getWriter().println(user + \" has been remembered with cookie: \" + rememberMe.getName() + \" whose val",
+      "L132 nextDouble: generator.nextDouble()"
+    ]
+  },
+  "BenchmarkTest00578": {
+    "sources": [
+      "L84 getCookies: getCookies()",
+      "L104 getRequestURI: getRequestURI()"
+    ],
+    "sinks": [
+      "L65 getInstance: java.security.SecureRandom.getInstance(\"SHA1PRNG\")",
+      "L118 println: System.out.println(\"Problem executing SecureRandom.nextBytes() - TestCase\")",
+      "L121 println: getWriter().println(\"Randomness Test java.security.SecureRandom.nextBytes(byte[]) executed\")",
+      "L98 println: getWriter().println(\"Welcome back: \" + user + \"<br/>\")",
+      "L102 setSecure: setSecure(true)",
+      "L106 setAttribute: getSession().setAttribute(cookieName, rememberMeKey)",
+      "L107 addCookie: addCookie(rememberMe)",
+      "L108 println: getWriter().println(user + \" has been remembered with cookie: \" + rememberMe.getName() + \" whose val"
+    ]
+  },
+  "BenchmarkTest00504": {
+    "sources": [
+      "L67 getCookies: getCookies()",
+      "L87 getRequestURI: getRequestURI()"
+    ],
+    "sinks": [
+      "L104 println: getWriter().println(\"Weak Randomness Test java.security.SecureRandom.nextFloat() executed\")",
+      "L53 nextFloat: java.security.SecureRandom.getInstance(\"SHA1PRNG\").nextFloat()",
+      "L101 println: System.out.println(\"Problem executing SecureRandom.nextFloat() - TestCase\")",
+      "L53 getInstance: java.security.SecureRandom.getInstance(\"SHA1PRNG\")",
+      "L81 println: getWriter().println(\"Welcome back: \" + user + \"<br/>\")",
+      "L85 setSecure: setSecure(true)",
+      "L89 setAttribute: getSession().setAttribute(cookieName, rememberMeKey)",
+      "L90 addCookie: addCookie(rememberMe)",
+      "L91 println: getWriter().println(user + \" has been remembered with cookie: \" + rememberMe.getName() + \" whose val"
+    ]
+  },
+  "BenchmarkTest01948": {
+    "sources": [
+      "L44 getHeader: getHeader(\"BenchmarkTest01948\")",
+      "L45 getHeader: getHeader(\"BenchmarkTest01948\")",
+      "L74 getCookies: getCookies()",
+      "L94 getRequestURI: getRequestURI()"
+    ],
+    "sinks": [
+      "L55 getInstance: java.security.SecureRandom.getInstance(\"SHA1PRNG\")",
+      "L108 println: System.out.println(\"Problem executing SecureRandom.nextBytes() - TestCase\")",
+      "L111 println: getWriter().println(\"Randomness Test java.security.SecureRandom.nextBytes(byte[]) executed\")",
+      "L88 println: getWriter().println(\"Welcome back: \" + user + \"<br/>\")",
+      "L92 setSecure: setSecure(true)",
+      "L96 setAttribute: getSession().setAttribute(cookieName, rememberMeKey)",
+      "L97 addCookie: addCookie(rememberMe)",
+      "L98 println: getWriter().println(user + \" has been remembered with cookie: \" + rememberMe.getName() + \" whose val"
+    ]
+  },
+  "BenchmarkTest00287": {
+    "sources": [
+      "L44 getHeaders: getHeaders(\"Referer\")"
+    ],
+    "sinks": []
+  },
+  "BenchmarkTest01050": {
+    "sources": [
+      "L44 getHeader: getHeader(\"Referer\")",
+      "L45 getHeader: getHeader(\"Referer\")"
+    ],
+    "sinks": [
+      "L54 print: getWriter().print(bar)"
+    ]
+  },
+  "BenchmarkTest02402": {
+    "sources": [],
+    "sinks": []
+  },
+  "BenchmarkTest01046": {
+    "sources": [
+      "L44 getHeader: getHeader(\"Referer\")",
+      "L45 getHeader: getHeader(\"Referer\")"
+    ],
+    "sinks": [
+      "L57 format: out.format(java.util.Locale.US, \"Formatted like: %1$s and %2$s.\", obj)"
+    ]
+  },
+  "BenchmarkTest01662": {
+    "sources": [
+      "L43 getQueryString: getQueryString()"
+    ],
+    "sinks": [
+      "L48 println: getWriter().println(\"getQueryString() couldn't find expected parameter '\" + \"BenchmarkTest01662\" + \""
+    ]
+  },
+  "BenchmarkTest00719": {
+    "sources": [],
+    "sinks": []
+  },
+  "BenchmarkTest02324": {
+    "sources": [],
+    "sinks": []
+  },
+  "BenchmarkTest00148": {
+    "sources": [
+      "L44 getHeader: getHeader(\"Referer\")",
+      "L45 getHeader: getHeader(\"Referer\")"
+    ],
+    "sinks": [
+      "L60 format: getWriter().format(\"Formatted like: %1$s and %2$s.\", obj)"
+    ]
+  },
+  "BenchmarkTest02134": {
+    "sources": [
+      "L43 getParameter: getParameter(\"BenchmarkTest02134\")"
+    ],
+    "sinks": []
+  },
+  "BenchmarkTest01335": {
+    "sources": [],
+    "sinks": [
+      "L56 format: out.format(java.util.Locale.US, \"Formatted like: %1$s and %2$s.\", obj)"
+    ]
+  },
+  "BenchmarkTest01924": {
+    "sources": [
+      "L44 getHeader: getHeader(\"Referer\")",
+      "L45 getHeader: getHeader(\"Referer\")"
+    ],
+    "sinks": []
+  },
+  "BenchmarkTest00548": {
+    "sources": [],
+    "sinks": []
+  },
+  "BenchmarkTest01352": {
+    "sources": [],
+    "sinks": []
+  },
+  "BenchmarkTest00468": {
+    "sources": [],
+    "sinks": [
+      "L60 format: getWriter().format(java.util.Locale.US, bar, obj)"
+    ]
+  },
+  "BenchmarkTest02052": {
+    "sources": [
+      "L44 getHeaders: getHeaders(\"Referer\")"
+    ],
+    "sinks": []
+  },
+  "BenchmarkTest01175": {
+    "sources": [
+      "L44 getHeaders: getHeaders(\"Referer\")"
+    ],
+    "sinks": []
+  },
+  "BenchmarkTest02320": {
+    "sources": [],
+    "sinks": []
+  },
+  "BenchmarkTest02318": {
+    "sources": [],
+    "sinks": [
+      "L63 print: getWriter().print(bar.toCharArray())"
+    ]
+  },
+  "BenchmarkTest01344": {
+    "sources": [],
+    "sinks": []
+  },
+  "BenchmarkTest02226": {
+    "sources": [],
+    "sinks": [
+      "L53 print: getWriter().print(bar.toCharArray())"
+    ]
+  },
+  "BenchmarkTest00953": {
+    "sources": [
+      "L41 getRequestURI: getRequestURI()",
+      "L54 getCookies: getCookies()"
+    ],
+    "sinks": [
+      "L39 setSecure: setSecure(true)",
+      "L43 addCookie: addCookie(userCookie)",
+      "L81 println: getWriter().println(\"Now ready to write to file: \" + org.owasp.esapi.ESAPI.encoder().encodeForHTML(f",
+      "L87 println: System.out.println(\"Couldn't open FileOutputStream on file: '\" + fileName + \"'\")"
+    ]
+  },
+  "BenchmarkTest00264": {
+    "sources": [
+      "L44 getHeaders: getHeaders(\"BenchmarkTest00264\")"
+    ],
+    "sinks": [
+      "L68 println: getWriter().println(\"The beginning of file: '\" + org.owasp.esapi.ESAPI.encoder().encodeForHTML(fileN",
+      "L79 println: System.out.println(\"Couldn't open FileInputStream on file: '\" + fileName + \"'\")",
+      "L80 println: getWriter().println(\"Problem getting FileInputStream: \" + org.owasp.esapi.ESAPI.encoder().encodeForH"
+    ]
+  },
+  "BenchmarkTest00215": {
+    "sources": [
+      "L44 getHeaderNames: getHeaderNames()",
+      "L52 getHeaders: getHeaders(name)"
+    ],
+    "sinks": [
+      "L66 println: getWriter().println(\"Access to file: '\" + org.owasp.esapi.ESAPI.encoder().encodeForHTML(fileTarget.t",
+      "L76 println: getWriter().println(\" And file already exists.\")",
+      "L78 println: getWriter().println(\" But file doesn't exist yet.\")"
+    ]
+  },
+  "BenchmarkTest01116": {
+    "sources": [
+      "L44 getHeaderNames: getHeaderNames()",
+      "L52 getHeaders: getHeaders(name)"
+    ],
+    "sinks": [
+      "L76 println: getWriter().println(\"Now ready to write to file: \" + org.owasp.esapi.ESAPI.encoder().encodeForHTML(f",
+      "L82 println: System.out.println(\"Couldn't open FileOutputStream on file: '\" + fileName + \"'\")"
+    ]
+  },
+  "BenchmarkTest01408": {
+    "sources": [],
+    "sinks": [
+      "L69 println: getWriter().println(\"Now ready to write to file: \" + org.owasp.esapi.ESAPI.encoder().encodeForHTML(f",
+      "L75 println: System.out.println(\"Couldn't open FileOutputStream on file: '\" + fileName + \"'\")"
+    ]
+  },
+  "BenchmarkTest00362": {
+    "sources": [
+      "L43 getParameter: getParameter(\"BenchmarkTest00362\")"
+    ],
+    "sinks": [
+      "L55 println: getWriter().println(\"Now ready to write to file: \" + org.owasp.esapi.ESAPI.encoder().encodeForHTML(f",
+      "L61 println: System.out.println(\"Couldn't open FileOutputStream on file: '\" + fileName + \"'\")"
+    ]
+  },
+  "BenchmarkTest01117": {
+    "sources": [
+      "L44 getHeaderNames: getHeaderNames()",
+      "L52 getHeaders: getHeaders(name)"
+    ],
+    "sinks": [
+      "L76 println: getWriter().println(\"Now ready to write to file: \" + org.owasp.esapi.ESAPI.encoder().encodeForHTML(f",
+      "L82 println: System.out.println(\"Couldn't open FileOutputStream on file: '\" + fileName + \"'\")"
+    ]
+  },
+  "BenchmarkTest00456": {
+    "sources": [],
+    "sinks": [
+      "L65 println: getWriter().println(\"The beginning of file: '\" + org.owasp.esapi.ESAPI.encoder().encodeForHTML(fileN",
+      "L70 println: getWriter().println(org.owasp.esapi.ESAPI.encoder().encodeForHTML(new String(b, 0, size)))",
+      "L73 println: System.out.println(\"Couldn't open FileInputStream on file: '\" + fileName + \"'\")"
+    ]
+  },
+  "BenchmarkTest01985": {
+    "sources": [
+      "L44 getHeaderNames: getHeaderNames()",
+      "L52 getHeaders: getHeaders(name)"
+    ],
+    "sinks": [
+      "L64 println: getWriter().println(\"Access to file: '\" + org.owasp.esapi.ESAPI.encoder().encodeForHTML(fileTarget.t",
+      "L74 println: getWriter().println(\" And file already exists.\")",
+      "L76 println: getWriter().println(\" But file doesn't exist yet.\")"
+    ]
+  },
+  "BenchmarkTest01330": {
+    "sources": [],
+    "sinks": [
+      "L59 println: getWriter().println(\"Now ready to write to file: \" + org.owasp.esapi.ESAPI.encoder().encodeForHTML(f",
+      "L65 println: System.out.println(\"Couldn't open FileOutputStream on file: '\" + fileName + \"'\")"
+    ]
+  },
+  "BenchmarkTest02462": {
+    "sources": [],
+    "sinks": [
+      "L53 println: getWriter().println(\"Access to file: '\" + org.owasp.esapi.ESAPI.encoder().encodeForHTML(fileTarget.t",
+      "L63 println: getWriter().println(\" And file already exists.\")",
+      "L65 println: getWriter().println(\" But file doesn't exist yet.\")"
+    ]
+  },
+  "BenchmarkTest02028": {
+    "sources": [
+      "L44 getHeaders: getHeaders(\"BenchmarkTest02028\")"
+    ],
+    "sinks": [
+      "L57 println: getWriter().println(\"Access to file: '\" + org.owasp.esapi.ESAPI.encoder().encodeForHTML(fileTarget.t",
+      "L67 println: getWriter().println(\" And file already exists.\")",
+      "L69 println: getWriter().println(\" But file doesn't exist yet.\")"
+    ]
+  },
+  "BenchmarkTest01026": {
+    "sources": [
+      "L44 getHeader: getHeader(\"BenchmarkTest01026\")",
+      "L45 getHeader: getHeader(\"BenchmarkTest01026\")"
+    ],
+    "sinks": [
+      "L54 println: getWriter().println(\"Access to file: '\" + org.owasp.esapi.ESAPI.encoder().encodeForHTML(fileTarget.t",
+      "L64 println: getWriter().println(\" And file already exists.\")",
+      "L66 println: getWriter().println(\" But file doesn't exist yet.\")"
+    ]
+  },
+  "BenchmarkTest02029": {
+    "sources": [
+      "L44 getHeaders: getHeaders(\"BenchmarkTest02029\")"
+    ],
+    "sinks": [
+      "L56 println: getWriter().println(\"Access to file: '\" + org.owasp.esapi.ESAPI.encoder().encodeForHTML(fileTarget.t",
+      "L66 println: getWriter().println(\" And file already exists.\")",
+      "L68 println: getWriter().println(\" But file doesn't exist yet.\")"
+    ]
+  },
+  "BenchmarkTest01990": {
+    "sources": [
+      "L44 getHeaderNames: getHeaderNames()",
+      "L52 getHeaders: getHeaders(name)"
+    ],
+    "sinks": [
+      "L70 println: getWriter().println(\"Now ready to write to file: \" + org.owasp.esapi.ESAPI.encoder().encodeForHTML(f",
+      "L76 println: System.out.println(\"Couldn't open FileOutputStream on file: '\" + fileName + \"'\")"
+    ]
+  },
+  "BenchmarkTest01118": {
+    "sources": [
+      "L44 getHeaderNames: getHeaderNames()",
+      "L52 getHeaders: getHeaders(name)"
+    ],
+    "sinks": [
+      "L71 println: getWriter().println(\"The beginning of file: '\" + org.owasp.esapi.ESAPI.encoder().encodeForHTML(fileN",
+      "L76 println: getWriter().println(org.owasp.esapi.ESAPI.encoder().encodeForHTML(new String(b, 0, size)))",
+      "L80 println: System.out.println(\"Couldn't open InputStream on file: '\" + fileName + \"'\")",
+      "L81 println: getWriter().println(\"Problem getting InputStream: \" + org.owasp.esapi.ESAPI.encoder().encodeForHTML("
+    ]
+  },
+  "BenchmarkTest01499": {
+    "sources": [],
+    "sinks": [
+      "L57 println: getWriter().println(\"Now ready to write to file: \" + org.owasp.esapi.ESAPI.encoder().encodeForHTML(f",
+      "L63 println: System.out.println(\"Couldn't open FileOutputStream on file: '\" + fileName + \"'\")"
+    ]
+  },
+  "BenchmarkTest00454": {
+    "sources": [],
+    "sinks": [
+      "L65 println: getWriter().println(\"The beginning of file: '\" + org.owasp.esapi.ESAPI.encoder().encodeForHTML(fileN",
+      "L76 println: System.out.println(\"Couldn't open FileInputStream on file: '\" + fileName + \"'\")",
+      "L77 println: getWriter().println(\"Problem getting FileInputStream: \" + org.owasp.esapi.ESAPI.encoder().encodeForH"
+    ]
+  },
+  "BenchmarkTest01028": {
+    "sources": [
+      "L44 getHeader: getHeader(\"BenchmarkTest01028\")",
+      "L45 getHeader: getHeader(\"BenchmarkTest01028\")"
+    ],
+    "sinks": [
+      "L71 println: getWriter().println(\"Access to file: '\" + org.owasp.esapi.ESAPI.encoder().encodeForHTML(fileTarget.t",
+      "L81 println: getWriter().println(\" And file already exists.\")",
+      "L83 println: getWriter().println(\" But file doesn't exist yet.\")"
+    ]
+  },
+  "BenchmarkTest01331": {
+    "sources": [],
+    "sinks": [
+      "L59 println: getWriter().println(\"Now ready to write to file: \" + org.owasp.esapi.ESAPI.encoder().encodeForHTML(f",
+      "L65 println: System.out.println(\"Couldn't open FileOutputStream on file: '\" + fileName + \"'\")"
+    ]
+  },
+  "BenchmarkTest00407": {
+    "sources": [
+      "L43 getParameter: getParameter(\"BenchmarkTest00407\")"
+    ],
+    "sinks": [
+      "L81 exec: r.exec(args, argsEnv)",
+      "L84 println: System.out.println(\"Problem executing cmdi - TestCase\")",
+      "L85 println: getWriter().println(org.owasp.esapi.ESAPI.encoder().encodeForHTML(e.getMessage()))"
+    ]
+  },
+  "BenchmarkTest01362": {
+    "sources": [],
+    "sinks": [
+      "L75 exec: r.exec(args, argsEnv, new java.io.File(System.getProperty(\"user.dir\")))",
+      "L78 println: System.out.println(\"Problem executing cmdi - TestCase\")",
+      "L79 println: getWriter().println(org.owasp.esapi.ESAPI.encoder().encodeForHTML(e.getMessage()))"
+    ]
+  },
+  "BenchmarkTest01190": {
+    "sources": [
+      "L44 getHeaders: getHeaders(\"BenchmarkTest01190\")"
+    ],
+    "sinks": [
+      "L64 exec: r.exec(args, argsEnv)",
+      "L67 println: System.out.println(\"Problem executing cmdi - TestCase\")",
+      "L68 println: getWriter().println(org.owasp.esapi.ESAPI.encoder().encodeForHTML(e.getMessage()))"
+    ]
+  },
+  "BenchmarkTest00576": {
+    "sources": [],
+    "sinks": [
+      "L75 exec: r.exec(cmd + bar, argsEnv, new java.io.File(System.getProperty(\"user.dir\")))",
+      "L78 println: System.out.println(\"Problem executing cmdi - TestCase\")",
+      "L79 println: getWriter().println(org.owasp.esapi.ESAPI.encoder().encodeForHTML(e.getMessage()))"
+    ]
+  },
+  "BenchmarkTest02512": {
+    "sources": [],
+    "sinks": [
+      "L59 exec: r.exec(args, argsEnv, new java.io.File(System.getProperty(\"user.dir\")))",
+      "L62 println: System.out.println(\"Problem executing cmdi - TestCase\")",
+      "L63 println: getWriter().println(org.owasp.esapi.ESAPI.encoder().encodeForHTML(e.getMessage()))"
+    ]
+  },
+  "BenchmarkTest01928": {
+    "sources": [
+      "L44 getHeader: getHeader(\"BenchmarkTest01928\")",
+      "L45 getHeader: getHeader(\"BenchmarkTest01928\")"
+    ],
+    "sinks": [
+      "L73 println: System.out.println(\"Problem executing cmdi - java.lang.ProcessBuilder(java.util.List) Test Case\")"
+    ]
+  },
+  "BenchmarkTest02059": {
+    "sources": [
+      "L44 getHeaders: getHeaders(\"BenchmarkTest02059\")"
+    ],
+    "sinks": [
+      "L73 println: System.out.println(\"Problem executing cmdi - java.lang.ProcessBuilder(java.lang.String[]) Test Case\""
+    ]
+  },
+  "BenchmarkTest01673": {
+    "sources": [
+      "L43 getQueryString: getQueryString()"
+    ],
+    "sinks": [
+      "L48 println: getWriter().println(\"getQueryString() couldn't find expected parameter '\" + \"BenchmarkTest01673\" + \"",
+      "L90 println: System.out.println(\"Problem executing cmdi - java.lang.ProcessBuilder(java.util.List) Test Case\")"
+    ]
+  },
+  "BenchmarkTest00500": {
+    "sources": [],
+    "sinks": [
+      "L68 exec: r.exec(cmd + bar, argsEnv, new java.io.File(System.getProperty(\"user.dir\")))",
+      "L71 println: System.out.println(\"Problem executing cmdi - TestCase\")",
+      "L72 println: getWriter().println(org.owasp.esapi.ESAPI.encoder().encodeForHTML(e.getMessage()))"
+    ]
+  },
+  "BenchmarkTest01944": {
+    "sources": [
+      "L44 getHeader: getHeader(\"BenchmarkTest01944\")",
+      "L45 getHeader: getHeader(\"BenchmarkTest01944\")"
+    ],
+    "sinks": [
+      "L64 exec: r.exec(cmd + bar, argsEnv, new java.io.File(System.getProperty(\"user.dir\")))",
+      "L67 println: System.out.println(\"Problem executing cmdi - TestCase\")",
+      "L68 println: getWriter().println(org.owasp.esapi.ESAPI.encoder().encodeForHTML(e.getMessage()))"
+    ]
+  },
+  "BenchmarkTest00905": {
+    "sources": [],
+    "sinks": [
+      "L70 exec: r.exec(args)",
+      "L73 println: System.out.println(\"Problem executing cmdi - TestCase\")",
+      "L74 println: getWriter().println(org.owasp.esapi.ESAPI.encoder().encodeForHTML(e.getMessage()))"
+    ]
+  },
+  "BenchmarkTest02242": {
+    "sources": [],
+    "sinks": [
+      "L72 println: System.out.println(\"Problem executing cmdi - java.lang.ProcessBuilder(java.util.List) Test Case\")"
+    ]
+  },
+  "BenchmarkTest01943": {
+    "sources": [
+      "L44 getHeader: getHeader(\"BenchmarkTest01943\")",
+      "L45 getHeader: getHeader(\"BenchmarkTest01943\")"
+    ],
+    "sinks": [
+      "L64 exec: r.exec(cmd + bar, argsEnv, new java.io.File(System.getProperty(\"user.dir\")))",
+      "L67 println: System.out.println(\"Problem executing cmdi - TestCase\")",
+      "L68 println: getWriter().println(org.owasp.esapi.ESAPI.encoder().encodeForHTML(e.getMessage()))"
+    ]
+  },
+  "BenchmarkTest02058": {
+    "sources": [
+      "L44 getHeaders: getHeaders(\"BenchmarkTest02058\")"
+    ],
+    "sinks": [
+      "L73 println: System.out.println(\"Problem executing cmdi - java.lang.ProcessBuilder(java.util.List) Test Case\")"
+    ]
+  },
+  "BenchmarkTest00305": {
+    "sources": [
+      "L44 getHeaders: getHeaders(\"BenchmarkTest00305\")"
+    ],
+    "sinks": [
+      "L99 exec: r.exec(args, argsEnv, new java.io.File(System.getProperty(\"user.dir\")))",
+      "L102 println: System.out.println(\"Problem executing cmdi - TestCase\")",
+      "L103 println: getWriter().println(org.owasp.esapi.ESAPI.encoder().encodeForHTML(e.getMessage()))"
+    ]
+  },
+  "BenchmarkTest00732": {
+    "sources": [],
+    "sinks": [
+      "L74 println: System.out.println(\"Problem executing cmdi - java.lang.ProcessBuilder(java.lang.String[]) Test Case\""
+    ]
+  },
+  "BenchmarkTest02153": {
+    "sources": [
+      "L43 getParameter: getParameter(\"BenchmarkTest02153\")"
+    ],
+    "sinks": [
+      "L57 exec: r.exec(args, argsEnv, new java.io.File(System.getProperty(\"user.dir\")))",
+      "L60 println: System.out.println(\"Problem executing cmdi - TestCase\")",
+      "L61 println: getWriter().println(org.owasp.esapi.ESAPI.encoder().encodeForHTML(e.getMessage()))"
+    ]
+  },
+  "BenchmarkTest00171": {
+    "sources": [
+      "L44 getHeader: getHeader(\"BenchmarkTest00171\")",
+      "L45 getHeader: getHeader(\"BenchmarkTest00171\")"
+    ],
+    "sinks": [
+      "L82 exec: r.exec(args, argsEnv, new java.io.File(System.getProperty(\"user.dir\")))",
+      "L85 println: System.out.println(\"Problem executing cmdi - TestCase\")",
+      "L86 println: getWriter().println(org.owasp.esapi.ESAPI.encoder().encodeForHTML(e.getMessage()))"
+    ]
+  },
+  "BenchmarkTest02148": {
+    "sources": [
+      "L43 getParameter: getParameter(\"BenchmarkTest02148\")"
+    ],
+    "sinks": [
+      "L71 exec: r.exec(args, argsEnv)",
+      "L74 println: System.out.println(\"Problem executing cmdi - TestCase\")",
+      "L75 println: getWriter().println(org.owasp.esapi.ESAPI.encoder().encodeForHTML(e.getMessage()))"
+    ]
+  },
+  "BenchmarkTest00897": {
+    "sources": [],
+    "sinks": [
+      "L86 println: System.out.println(\"Problem executing cmdi - java.lang.ProcessBuilder(java.lang.String[]) Test Case\""
+    ]
+  },
+  "BenchmarkTest02017": {
+    "sources": [
+      "L44 getHeaders: getHeaders(\"BenchmarkTest02017\")"
+    ],
+    "sinks": [
+      "L151 println: getWriter().println(\"Crypto Test javax.crypto.Cipher.getInstance(java.lang.String,java.security.Prov",
+      "L104 println: getWriter().println(\"Sensitive value: '\" + org.owasp.esapi.ESAPI.encoder().encodeForHTML(new String(",
+      "L67 getInstance: javax.crypto.Cipher.getInstance(\"DES/CBC/PKCS5PADDING\", java.security.Security.getProvider(\"SunJCE\")",
+      "L115 println: getWriter().println(\"Problem executing crypto - javax.crypto.Cipher.getInstance(java.lang.String,jav",
+      "L121 println: getWriter().println(\"Problem executing crypto - javax.crypto.Cipher.getInstance(java.lang.String,jav",
+      "L127 println: getWriter().println(\"Problem executing crypto - javax.crypto.Cipher.getInstance(java.lang.String,jav",
+      "L133 println: getWriter().println(\"Problem executing crypto - javax.crypto.Cipher.getInstance(java.lang.String,jav",
+      "L139 println: getWriter().println(\"Problem executing crypto - javax.crypto.Cipher.getInstance(java.lang.String,jav",
+      "L145 println: getWriter().println(\"Problem executing crypto - javax.crypto.Cipher.getInstance(java.lang.String,jav",
+      "L71 getInstance: javax.crypto.KeyGenerator.getInstance(\"DES\")",
+      "L84 println: getWriter().println(\"This input source requires a POST, not a GET. Incompatible UI for the InputStre"
+    ]
+  },
+  "BenchmarkTest01230": {
+    "sources": [
+      "L43 getParameter: getParameter(\"BenchmarkTest01230\")"
+    ],
+    "sinks": [
+      "L87 println: getWriter().println(\"Sensitive value: '\" + org.owasp.esapi.ESAPI.encoder().encodeForHTML(new String(",
+      "L53 getInstance: javax.crypto.Cipher.getInstance(algorithm)",
+      "L102 println: getWriter().println(\"Problem executing crypto - javax.crypto.Cipher.getInstance(java.lang.String,jav",
+      "L56 getInstance: javax.crypto.KeyGenerator.getInstance(\"DES\")",
+      "L67 println: getWriter().println(\"This input source requires a POST, not a GET. Incompatible UI for the InputStre"
+    ]
+  },
+  "BenchmarkTest00254": {
+    "sources": [
+      "L44 getHeaders: getHeaders(\"BenchmarkTest00254\")"
+    ],
+    "sinks": [
+      "L158 println: getWriter().println(\"Crypto Test javax.crypto.Cipher.getInstance(java.lang.String,java.security.Prov",
+      "L111 println: getWriter().println(\"Sensitive value: '\" + org.owasp.esapi.ESAPI.encoder().encodeForHTML(new String(",
+      "L74 getInstance: javax.crypto.Cipher.getInstance(\"DES/CBC/PKCS5PADDING\", java.security.Security.getProvider(\"SunJCE\")",
+      "L122 println: getWriter().println(\"Problem executing crypto - javax.crypto.Cipher.getInstance(java.lang.String,jav",
+      "L128 println: getWriter().println(\"Problem executing crypto - javax.crypto.Cipher.getInstance(java.lang.String,jav",
+      "L134 println: getWriter().println(\"Problem executing crypto - javax.crypto.Cipher.getInstance(java.lang.String,jav",
+      "L140 println: getWriter().println(\"Problem executing crypto - javax.crypto.Cipher.getInstance(java.lang.String,jav",
+      "L146 println: getWriter().println(\"Problem executing crypto - javax.crypto.Cipher.getInstance(java.lang.String,jav",
+      "L152 println: getWriter().println(\"Problem executing crypto - javax.crypto.Cipher.getInstance(java.lang.String,jav",
+      "L78 getInstance: javax.crypto.KeyGenerator.getInstance(\"DES\")",
+      "L91 println: getWriter().println(\"This input source requires a POST, not a GET. Incompatible UI for the InputStre"
+    ]
+  },
+  "BenchmarkTest01017": {
+    "sources": [
+      "L44 getHeader: getHeader(\"BenchmarkTest01017\")",
+      "L45 getHeader: getHeader(\"BenchmarkTest01017\")"
+    ],
+    "sinks": [
+      "L153 println: getWriter().println(\"Crypto Test javax.crypto.Cipher.getInstance(java.lang.String,java.lang.String)",
+      "L100 println: getWriter().println(\"Sensitive value: '\" + org.owasp.esapi.ESAPI.encoder().encodeForHTML(new String(",
+      "L65 getInstance: javax.crypto.Cipher.getInstance(\"DES/CBC/PKCS5Padding\", \"SunJCE\")",
+      "L111 println: getWriter().println(\"Problem executing crypto - javax.crypto.Cipher.getInstance(java.lang.String,jav",
+      "L117 println: getWriter().println(\"Problem executing crypto - javax.crypto.Cipher.getInstance(java.lang.String,jav",
+      "L123 println: getWriter().println(\"Problem executing crypto - javax.crypto.Cipher.getInstance(java.lang.String,jav",
+      "L129 println: getWriter().println(\"Problem executing crypto - javax.crypto.Cipher.getInstance(java.lang.String,jav",
+      "L135 println: getWriter().println(\"Problem executing crypto - javax.crypto.Cipher.getInstance(java.lang.String,jav",
+      "L141 println: getWriter().println(\"Problem executing crypto - javax.crypto.Cipher.getInstance(java.lang.String,jav",
+      "L147 println: getWriter().println(\"Problem executing crypto - javax.crypto.Cipher.getInstance(java.lang.String,jav",
+      "L67 getInstance: javax.crypto.KeyGenerator.getInstance(\"DES\")",
+      "L80 println: getWriter().println(\"This input source requires a POST, not a GET. Incompatible UI for the InputStre"
+    ]
+  },
+  "BenchmarkTest01489": {
+    "sources": [],
+    "sinks": [
+      "L89 println: getWriter().println(\"Sensitive value: '\" + org.owasp.esapi.ESAPI.encoder().encodeForHTML(new String(",
+      "L55 getInstance: javax.crypto.Cipher.getInstance(algorithm)",
+      "L104 println: getWriter().println(\"Problem executing crypto - javax.crypto.Cipher.getInstance(java.lang.String,jav",
+      "L58 getInstance: javax.crypto.KeyGenerator.getInstance(\"DES\")",
+      "L69 println: getWriter().println(\"This input source requires a POST, not a GET. Incompatible UI for the InputStre"
+    ]
+  },
+  "BenchmarkTest02660": {
+    "sources": [],
+    "sinks": [
+      "L96 println: getWriter().println(\"Sensitive value: '\" + org.owasp.esapi.ESAPI.encoder().encodeForHTML(new String(",
+      "L60 getInstance: javax.crypto.Cipher.getInstance(\"DES/CBC/PKCS5Padding\")",
+      "L112 println: getWriter().println(\"Problem executing crypto - javax.crypto.Cipher.getInstance(java.lang.String,jav",
+      "L63 getInstance: javax.crypto.KeyGenerator.getInstance(\"DES\")",
+      "L76 println: getWriter().println(\"This input source requires a POST, not a GET. Incompatible UI for the InputStre"
+    ]
+  },
+  "BenchmarkTest01981": {
+    "sources": [
+      "L44 getHeaderNames: getHeaderNames()",
+      "L52 getHeaders: getHeaders(name)"
+    ],
+    "sinks": [
+      "L102 println: getWriter().println(\"Sensitive value: '\" + org.owasp.esapi.ESAPI.encoder().encodeForHTML(new String(",
+      "L68 getInstance: javax.crypto.Cipher.getInstance(algorithm)",
+      "L117 println: getWriter().println(\"Problem executing crypto - javax.crypto.Cipher.getInstance(java.lang.String,jav",
+      "L71 getInstance: javax.crypto.KeyGenerator.getInstance(\"DES\")",
+      "L82 println: getWriter().println(\"This input source requires a POST, not a GET. Incompatible UI for the InputStre"
+    ]
+  },
+  "BenchmarkTest02294": {
+    "sources": [],
+    "sinks": [
+      "L109 println: getWriter().println(\"Sensitive value: '\" + org.owasp.esapi.ESAPI.encoder().encodeForHTML(new String(",
+      "L73 getInstance: javax.crypto.Cipher.getInstance(\"DES/CBC/PKCS5Padding\")",
+      "L125 println: getWriter().println(\"Problem executing crypto - javax.crypto.Cipher.getInstance(java.lang.String,jav",
+      "L76 getInstance: javax.crypto.KeyGenerator.getInstance(\"DES\")",
+      "L89 println: getWriter().println(\"This input source requires a POST, not a GET. Incompatible UI for the InputStre"
+    ]
+  },
+  "BenchmarkTest00617": {
+    "sources": [],
+    "sinks": [
+      "L90 println: getWriter().println(\"Sensitive value: '\" + org.owasp.esapi.ESAPI.encoder().encodeForHTML(new String(",
+      "L56 getInstance: javax.crypto.Cipher.getInstance(algorithm)",
+      "L105 println: getWriter().println(\"Problem executing crypto - javax.crypto.Cipher.getInstance(java.lang.String,jav",
+      "L59 getInstance: javax.crypto.KeyGenerator.getInstance(\"DES\")",
+      "L70 println: getWriter().println(\"This input source requires a POST, not a GET. Incompatible UI for the InputStre"
+    ]
+  },
+  "BenchmarkTest01229": {
+    "sources": [
+      "L43 getParameter: getParameter(\"BenchmarkTest01229\")"
+    ],
+    "sinks": [
+      "L95 println: getWriter().println(\"Sensitive value: '\" + org.owasp.esapi.ESAPI.encoder().encodeForHTML(new String(",
+      "L59 getInstance: javax.crypto.Cipher.getInstance(\"DES/CBC/PKCS5Padding\")",
+      "L111 println: getWriter().println(\"Problem executing crypto - javax.crypto.Cipher.getInstance(java.lang.String,jav",
+      "L62 getInstance: javax.crypto.KeyGenerator.getInstance(\"DES\")",
+      "L75 println: getWriter().println(\"This input source requires a POST, not a GET. Incompatible UI for the InputStre"
+    ]
+  },
+  "BenchmarkTest00260": {
+    "sources": [
+      "L44 getHeaders: getHeaders(\"BenchmarkTest00260\")"
+    ],
+    "sinks": [
+      "L111 println: getWriter().println(\"Crypto Test javax.crypto.Cipher.getInstance(java.lang.String,java.lang.String)",
+      "L88 println: getWriter().println(\"Sensitive value: '\" + org.owasp.esapi.ESAPI.encoder().encodeForHTML(new String(",
+      "L99 println: getWriter().println(\"Problem executing crypto - javax.crypto.Cipher.getInstance(java.lang.String,jav",
+      "L105 println: getWriter().println(\"Problem executing crypto - javax.crypto.Cipher.getInstance(java.lang.String,jav",
+      "L68 println: getWriter().println(\"This input source requires a POST, not a GET. Incompatible UI for the InputStre"
+    ]
+  },
+  "BenchmarkTest00524": {
+    "sources": [],
+    "sinks": [
+      "L131 println: getWriter().println(\"Sensitive value: '\" + org.owasp.esapi.ESAPI.encoder().encodeForHTML(new String(",
+      "L97 getInstance: javax.crypto.Cipher.getInstance(algorithm)",
+      "L146 println: getWriter().println(\"Problem executing crypto - javax.crypto.Cipher.getInstance(java.lang.String) Te",
+      "L100 getInstance: javax.crypto.KeyGenerator.getInstance(\"AES\")",
+      "L111 println: getWriter().println(\"This input source requires a POST, not a GET. Incompatible UI for the InputStre"
+    ]
+  },
+  "BenchmarkTest01982": {
+    "sources": [
+      "L44 getHeaderNames: getHeaderNames()",
+      "L52 getHeaders: getHeaders(name)"
+    ],
+    "sinks": [
+      "L112 println: getWriter().println(\"Sensitive value: '\" + org.owasp.esapi.ESAPI.encoder().encodeForHTML(new String(",
+      "L78 getInstance: javax.crypto.Cipher.getInstance(algorithm)",
+      "L127 println: getWriter().println(\"Problem executing crypto - javax.crypto.Cipher.getInstance(java.lang.String) Te",
+      "L81 getInstance: javax.crypto.KeyGenerator.getInstance(\"AES\")",
+      "L92 println: getWriter().println(\"This input source requires a POST, not a GET. Incompatible UI for the InputStre"
+    ]
+  },
+  "BenchmarkTest01485": {
+    "sources": [],
+    "sinks": [
+      "L106 println: getWriter().println(\"Crypto Test javax.crypto.Cipher.getInstance(java.lang.String,java.lang.String)",
+      "L83 println: getWriter().println(\"Sensitive value: '\" + org.owasp.esapi.ESAPI.encoder().encodeForHTML(new String(",
+      "L94 println: getWriter().println(\"Problem executing crypto - javax.crypto.Cipher.getInstance(java.lang.String,jav",
+      "L100 println: getWriter().println(\"Problem executing crypto - javax.crypto.Cipher.getInstance(java.lang.String,jav",
+      "L63 println: getWriter().println(\"This input source requires a POST, not a GET. Incompatible UI for the InputStre"
+    ]
+  },
+  "BenchmarkTest01401": {
+    "sources": [],
+    "sinks": [
+      "L111 println: getWriter().println(\"Sensitive value: '\" + org.owasp.esapi.ESAPI.encoder().encodeForHTML(new String(",
+      "L77 getInstance: javax.crypto.Cipher.getInstance(algorithm)",
+      "L126 println: getWriter().println(\"Problem executing crypto - javax.crypto.Cipher.getInstance(java.lang.String) Te",
+      "L80 getInstance: javax.crypto.KeyGenerator.getInstance(\"AES\")",
+      "L91 println: getWriter().println(\"This input source requires a POST, not a GET. Incompatible UI for the InputStre"
+    ]
+  },
+  "BenchmarkTest00613": {
+    "sources": [],
+    "sinks": [
+      "L112 println: getWriter().println(\"Crypto Test javax.crypto.Cipher.getInstance(java.lang.String,java.lang.String)",
+      "L89 println: getWriter().println(\"Sensitive value: '\" + org.owasp.esapi.ESAPI.encoder().encodeForHTML(new String(",
+      "L100 println: getWriter().println(\"Problem executing crypto - javax.crypto.Cipher.getInstance(java.lang.String,jav",
+      "L106 println: getWriter().println(\"Problem executing crypto - javax.crypto.Cipher.getInstance(java.lang.String,jav",
+      "L69 println: getWriter().println(\"This input source requires a POST, not a GET. Incompatible UI for the InputStre"
+    ]
+  },
+  "BenchmarkTest01563": {
+    "sources": [],
+    "sinks": [
+      "L148 println: getWriter().println(\"Crypto Test javax.crypto.Cipher.getInstance(java.lang.String) executed\")",
+      "L101 println: getWriter().println(\"Sensitive value: '\" + org.owasp.esapi.ESAPI.encoder().encodeForHTML(new String(",
+      "L65 getInstance: javax.crypto.Cipher.getInstance(\"AES/GCM/NOPADDING\")",
+      "L112 println: getWriter().println(\"Problem executing crypto - javax.crypto.Cipher.getInstance(java.lang.String) Te",
+      "L118 println: getWriter().println(\"Problem executing crypto - javax.crypto.Cipher.getInstance(java.lang.String) Te",
+      "L124 println: getWriter().println(\"Problem executing crypto - javax.crypto.Cipher.getInstance(java.lang.String) Te",
+      "L130 println: getWriter().println(\"Problem executing crypto - javax.crypto.Cipher.getInstance(java.lang.String) Te",
+      "L136 println: getWriter().println(\"Problem executing crypto - javax.crypto.Cipher.getInstance(java.lang.String) Te",
+      "L142 println: getWriter().println(\"Problem executing crypto - javax.crypto.Cipher.getInstance(java.lang.String) Te",
+      "L68 getInstance: javax.crypto.KeyGenerator.getInstance(\"AES\")",
+      "L81 println: getWriter().println(\"This input source requires a POST, not a GET. Incompatible UI for the InputStre"
+    ]
+  },
+  "BenchmarkTest01101": {
+    "sources": [
+      "L44 getHeaderNames: getHeaderNames()",
+      "L52 getHeaders: getHeaders(name)"
+    ],
+    "sinks": [
+      "L119 println: getWriter().println(\"Crypto Test javax.crypto.Cipher.getInstance(java.lang.String,java.lang.String)",
+      "L96 println: getWriter().println(\"Sensitive value: '\" + org.owasp.esapi.ESAPI.encoder().encodeForHTML(new String(",
+      "L107 println: getWriter().println(\"Problem executing crypto - javax.crypto.Cipher.getInstance(java.lang.String,jav",
+      "L113 println: getWriter().println(\"Problem executing crypto - javax.crypto.Cipher.getInstance(java.lang.String,jav",
+      "L76 println: getWriter().println(\"This input source requires a POST, not a GET. Incompatible UI for the InputStre"
+    ]
+  },
+  "BenchmarkTest02659": {
+    "sources": [],
+    "sinks": [
+      "L147 println: getWriter().println(\"Crypto Test javax.crypto.Cipher.getInstance(java.lang.String) executed\")",
+      "L100 println: getWriter().println(\"Sensitive value: '\" + org.owasp.esapi.ESAPI.encoder().encodeForHTML(new String(",
+      "L64 getInstance: javax.crypto.Cipher.getInstance(\"AES/GCM/NOPADDING\")",
+      "L111 println: getWriter().println(\"Problem executing crypto - javax.crypto.Cipher.getInstance(java.lang.String) Te",
+      "L117 println: getWriter().println(\"Problem executing crypto - javax.crypto.Cipher.getInstance(java.lang.String) Te",
+      "L123 println: getWriter().println(\"Problem executing crypto - javax.crypto.Cipher.getInstance(java.lang.String) Te",
+      "L129 println: getWriter().println(\"Problem executing crypto - javax.crypto.Cipher.getInstance(java.lang.String) Te",
+      "L135 println: getWriter().println(\"Problem executing crypto - javax.crypto.Cipher.getInstance(java.lang.String) Te",
+      "L141 println: getWriter().println(\"Problem executing crypto - javax.crypto.Cipher.getInstance(java.lang.String) Te",
+      "L67 getInstance: javax.crypto.KeyGenerator.getInstance(\"AES\")",
+      "L80 println: getWriter().println(\"This input source requires a POST, not a GET. Incompatible UI for the InputStre"
+    ]
+  },
+  "BenchmarkTest01021": {
+    "sources": [
+      "L44 getHeader: getHeader(\"BenchmarkTest01021\")",
+      "L45 getHeader: getHeader(\"BenchmarkTest01021\")"
+    ],
+    "sinks": [
+      "L102 println: getWriter().println(\"Sensitive value: '\" + org.owasp.esapi.ESAPI.encoder().encodeForHTML(new String(",
+      "L68 getInstance: javax.crypto.Cipher.getInstance(algorithm)",
+      "L117 println: getWriter().println(\"Problem executing crypto - javax.crypto.Cipher.getInstance(java.lang.String) Te",
+      "L71 getInstance: javax.crypto.KeyGenerator.getInstance(\"AES\")",
+      "L82 println: getWriter().println(\"This input source requires a POST, not a GET. Incompatible UI for the InputStre"
+    ]
+  },
+  "BenchmarkTest01844": {
+    "sources": [
+      "L41 getRequestURI: getRequestURI()",
+      "L54 getCookies: getCookies()"
+    ],
+    "sinks": [
+      "L39 setSecure: setSecure(true)",
+      "L43 addCookie: addCookie(userCookie)",
+      "L126 println: getWriter().println(\"Hash Test java.security.MessageDigest.getInstance(java.lang.String,java.securit",
+      "L106 println: getWriter().println(\"Sensitive value '\" + org.owasp.esapi.ESAPI.encoder().encodeForHTML(new String(i",
+      "L117 println: System.out.println(\"Problem executing hash - TestCase java.security.MessageDigest.getInstance(java.l",
+      "L121 println: System.out.println(\"Problem executing hash - TestCase java.security.MessageDigest.getInstance(java.l",
+      "L74 getInstance: java.security.MessageDigest.getInstance(\"SHA1\", provider[0])",
+      "L76 getInstance: java.security.MessageDigest.getInstance(\"SHA1\", \"SUN\")",
+      "L85 println: getWriter().println(\"This input source requires a POST, not a GET. Incompatible UI for the InputStre"
+    ]
+  },
+  "BenchmarkTest00963": {
+    "sources": [
+      "L41 getRequestURI: getRequestURI()",
+      "L54 getCookies: getCookies()"
+    ],
+    "sinks": [
+      "L39 setSecure: setSecure(true)",
+      "L43 addCookie: addCookie(userCookie)",
+      "L113 println: getWriter().println(\"Hash Test java.security.MessageDigest.getInstance(java.lang.String) executed\")",
+      "L98 println: getWriter().println(\"Sensitive value '\" + org.owasp.esapi.ESAPI.encoder().encodeForHTML(new String(i",
+      "L69 getInstance: java.security.MessageDigest.getInstance(\"MD5\")",
+      "L109 println: System.out.println(\"Problem executing hash - TestCase\")",
+      "L77 println: getWriter().println(\"This input source requires a POST, not a GET. Incompatible UI for the InputStre"
+    ]
+  },
+  "BenchmarkTest00636": {
+    "sources": [],
+    "sinks": [
+      "L100 println: getWriter().println(\"Hash Test java.security.MessageDigest.getInstance(java.lang.String,java.lang.St",
+      "L80 println: getWriter().println(\"Sensitive value '\" + org.owasp.esapi.ESAPI.encoder().encodeForHTML(new String(i",
+      "L51 getInstance: java.security.MessageDigest.getInstance(\"SHA1\", \"SUN\")",
+      "L91 println: System.out.println(\"Problem executing hash - TestCase java.security.MessageDigest.getInstance(java.l",
+      "L95 println: System.out.println(\"Problem executing hash - TestCase java.security.MessageDigest.getInstance(java.l",
+      "L59 println: getWriter().println(\"This input source requires a POST, not a GET. Incompatible UI for the InputStre"
+    ]
+  },
+  "BenchmarkTest02674": {
+    "sources": [],
+    "sinks": [
+      "L94 println: getWriter().println(\"Hash Test java.security.MessageDigest.getInstance(java.lang.String) executed\")",
+      "L79 println: getWriter().println(\"Sensitive value '\" + org.owasp.esapi.ESAPI.encoder().encodeForHTML(new String(i",
+      "L50 getInstance: java.security.MessageDigest.getInstance(\"MD5\")",
+      "L90 println: System.out.println(\"Problem executing hash - TestCase\")",
+      "L58 println: getWriter().println(\"This input source requires a POST, not a GET. Incompatible UI for the InputStre"
+    ]
+  },
+  "BenchmarkTest00462": {
+    "sources": [],
+    "sinks": [
+      "L120 println: getWriter().println(\"Hash Test java.security.MessageDigest.getInstance(java.lang.String,java.securit",
+      "L100 println: getWriter().println(\"Sensitive value '\" + org.owasp.esapi.ESAPI.encoder().encodeForHTML(new String(i",
+      "L111 println: System.out.println(\"Problem executing hash - TestCase java.security.MessageDigest.getInstance(java.l",
+      "L115 println: System.out.println(\"Problem executing hash - TestCase java.security.MessageDigest.getInstance(java.l",
+      "L68 getInstance: java.security.MessageDigest.getInstance(\"SHA1\", provider[0])",
+      "L70 getInstance: java.security.MessageDigest.getInstance(\"SHA1\", \"SUN\")",
+      "L79 println: getWriter().println(\"This input source requires a POST, not a GET. Incompatible UI for the InputStre"
+    ]
+  },
+  "BenchmarkTest00266": {
+    "sources": [
+      "L44 getHeaders: getHeaders(\"BenchmarkTest00266\")"
+    ],
+    "sinks": [
+      "L118 println: getWriter().println(\"Hash Test java.security.MessageDigest.getInstance(java.lang.String,java.securit",
+      "L98 println: getWriter().println(\"Sensitive value '\" + org.owasp.esapi.ESAPI.encoder().encodeForHTML(new String(i",
+      "L109 println: System.out.println(\"Problem executing hash - TestCase java.security.MessageDigest.getInstance(java.l",
+      "L113 println: System.out.println(\"Problem executing hash - TestCase java.security.MessageDigest.getInstance(java.l",
+      "L66 getInstance: java.security.MessageDigest.getInstance(\"SHA1\", provider[0])",
+      "L68 getInstance: java.security.MessageDigest.getInstance(\"SHA1\", \"SUN\")",
+      "L77 println: getWriter().println(\"This input source requires a POST, not a GET. Incompatible UI for the InputStre"
+    ]
+  },
+  "BenchmarkTest00533": {
+    "sources": [],
+    "sinks": [
+      "L122 println: getWriter().println(\"Hash Test java.security.MessageDigest.getInstance(java.lang.String,java.lang.St",
+      "L102 println: getWriter().println(\"Sensitive value '\" + org.owasp.esapi.ESAPI.encoder().encodeForHTML(new String(i",
+      "L73 getInstance: java.security.MessageDigest.getInstance(\"SHA1\", \"SUN\")",
+      "L113 println: System.out.println(\"Problem executing hash - TestCase java.security.MessageDigest.getInstance(java.l",
+      "L117 println: System.out.println(\"Problem executing hash - TestCase java.security.MessageDigest.getInstance(java.l",
+      "L81 println: getWriter().println(\"This input source requires a POST, not a GET. Incompatible UI for the InputStre"
+    ]
+  },
+  "BenchmarkTest00704": {
+    "sources": [],
+    "sinks": [
+      "L111 println: getWriter().println(\"Hash Test java.security.MessageDigest.getInstance(java.lang.String,java.securit",
+      "L91 println: getWriter().println(\"Sensitive value '\" + org.owasp.esapi.ESAPI.encoder().encodeForHTML(new String(i",
+      "L102 println: System.out.println(\"Problem executing hash - TestCase java.security.MessageDigest.getInstance(java.l",
+      "L106 println: System.out.println(\"Problem executing hash - TestCase java.security.MessageDigest.getInstance(java.l",
+      "L59 getInstance: java.security.MessageDigest.getInstance(\"SHA1\", provider[0])",
+      "L61 getInstance: java.security.MessageDigest.getInstance(\"SHA1\", \"SUN\")",
+      "L70 println: getWriter().println(\"This input source requires a POST, not a GET. Incompatible UI for the InputStre"
+    ]
+  },
+  "BenchmarkTest00705": {
+    "sources": [],
+    "sinks": [
+      "L106 println: getWriter().println(\"Hash Test java.security.MessageDigest.getInstance(java.lang.String,java.lang.St",
+      "L86 println: getWriter().println(\"Sensitive value '\" + org.owasp.esapi.ESAPI.encoder().encodeForHTML(new String(i",
+      "L57 getInstance: java.security.MessageDigest.getInstance(\"SHA1\", \"SUN\")",
+      "L97 println: System.out.println(\"Problem executing hash - TestCase java.security.MessageDigest.getInstance(java.l",
+      "L101 println: System.out.println(\"Problem executing hash - TestCase java.security.MessageDigest.getInstance(java.l",
+      "L65 println: getWriter().println(\"This input source requires a POST, not a GET. Incompatible UI for the InputStre"
+    ]
+  },
+  "BenchmarkTest02311": {
+    "sources": [],
+    "sinks": [
+      "L107 println: getWriter().println(\"Hash Test java.security.MessageDigest.getInstance(java.lang.String) executed\")",
+      "L92 println: getWriter().println(\"Sensitive value '\" + org.owasp.esapi.ESAPI.encoder().encodeForHTML(new String(i",
+      "L63 getInstance: java.security.MessageDigest.getInstance(\"MD5\")",
+      "L103 println: System.out.println(\"Problem executing hash - TestCase\")",
+      "L71 println: getWriter().println(\"This input source requires a POST, not a GET. Incompatible UI for the InputStre"
+    ]
+  },
+  "BenchmarkTest01848": {
+    "sources": [
+      "L41 getRequestURI: getRequestURI()",
+      "L54 getCookies: getCookies()"
+    ],
+    "sinks": [
+      "L39 setSecure: setSecure(true)",
+      "L43 addCookie: addCookie(userCookie)",
+      "L119 println: getWriter().println(\"Hash Test java.security.MessageDigest.getInstance(java.lang.String,java.lang.St",
+      "L99 println: getWriter().println(\"Sensitive value '\" + org.owasp.esapi.ESAPI.encoder().encodeForHTML(new String(i",
+      "L70 getInstance: java.security.MessageDigest.getInstance(\"SHA-512\", \"SUN\")",
+      "L110 println: System.out.println(\"Problem executing hash - TestCase java.security.MessageDigest.getInstance(java.l",
+      "L114 println: System.out.println(\"Problem executing hash - TestCase java.security.MessageDigest.getInstance(java.l",
+      "L78 println: getWriter().println(\"This input source requires a POST, not a GET. Incompatible UI for the InputStre"
+    ]
+  },
+  "BenchmarkTest00225": {
+    "sources": [
+      "L44 getHeaderNames: getHeaderNames()",
+      "L52 getHeaders: getHeaders(name)"
+    ],
+    "sinks": [
+      "L119 println: getWriter().println(\"Hash Test java.security.MessageDigest.getInstance(java.lang.String,java.lang.St",
+      "L99 println: getWriter().println(\"Sensitive value '\" + org.owasp.esapi.ESAPI.encoder().encodeForHTML(new String(i",
+      "L70 getInstance: java.security.MessageDigest.getInstance(\"SHA-512\", \"SUN\")",
+      "L110 println: System.out.println(\"Problem executing hash - TestCase java.security.MessageDigest.getInstance(java.l",
+      "L114 println: System.out.println(\"Problem executing hash - TestCase java.security.MessageDigest.getInstance(java.l",
+      "L78 println: getWriter().println(\"This input source requires a POST, not a GET. Incompatible UI for the InputStre"
+    ]
+  },
+  "BenchmarkTest01122": {
+    "sources": [
+      "L44 getHeaderNames: getHeaderNames()",
+      "L52 getHeaders: getHeaders(name)"
+    ],
+    "sinks": [
+      "L121 println: getWriter().println(\"Hash Test java.security.MessageDigest.getInstance(java.lang.String,java.securit",
+      "L101 println: getWriter().println(\"Sensitive value '\" + org.owasp.esapi.ESAPI.encoder().encodeForHTML(new String(i",
+      "L112 println: System.out.println(\"Problem executing hash - TestCase java.security.MessageDigest.getInstance(java.l",
+      "L116 println: System.out.println(\"Problem executing hash - TestCase java.security.MessageDigest.getInstance(java.l",
+      "L69 getInstance: java.security.MessageDigest.getInstance(\"sha-384\", provider[0])",
+      "L71 getInstance: java.security.MessageDigest.getInstance(\"sha-384\", \"SUN\")",
+      "L80 println: getWriter().println(\"This input source requires a POST, not a GET. Incompatible UI for the InputStre"
+    ]
+  },
+  "BenchmarkTest01121": {
+    "sources": [
+      "L44 getHeaderNames: getHeaderNames()",
+      "L52 getHeaders: getHeaders(name)"
+    ],
+    "sinks": [
+      "L121 println: getWriter().println(\"Hash Test java.security.MessageDigest.getInstance(java.lang.String,java.securit",
+      "L101 println: getWriter().println(\"Sensitive value '\" + org.owasp.esapi.ESAPI.encoder().encodeForHTML(new String(i",
+      "L112 println: System.out.println(\"Problem executing hash - TestCase java.security.MessageDigest.getInstance(java.l",
+      "L116 println: System.out.println(\"Problem executing hash - TestCase java.security.MessageDigest.getInstance(java.l",
+      "L69 getInstance: java.security.MessageDigest.getInstance(\"sha-384\", provider[0])",
+      "L71 getInstance: java.security.MessageDigest.getInstance(\"sha-384\", \"SUN\")",
+      "L80 println: getWriter().println(\"This input source requires a POST, not a GET. Incompatible UI for the InputStre"
+    ]
+  },
+  "BenchmarkTest01410": {
+    "sources": [],
+    "sinks": [
+      "L120 println: getWriter().println(\"Hash Test java.security.MessageDigest.getInstance(java.lang.String,java.securit",
+      "L100 println: getWriter().println(\"Sensitive value '\" + org.owasp.esapi.ESAPI.encoder().encodeForHTML(new String(i",
+      "L111 println: System.out.println(\"Problem executing hash - TestCase java.security.MessageDigest.getInstance(java.l",
+      "L115 println: System.out.println(\"Problem executing hash - TestCase java.security.MessageDigest.getInstance(java.l",
+      "L68 getInstance: java.security.MessageDigest.getInstance(\"sha-384\", provider[0])",
+      "L70 getInstance: java.security.MessageDigest.getInstance(\"sha-384\", \"SUN\")",
+      "L79 println: getWriter().println(\"This input source requires a POST, not a GET. Incompatible UI for the InputStre"
+    ]
+  },
+  "BenchmarkTest01655": {
+    "sources": [
+      "L43 getQueryString: getQueryString()"
+    ],
+    "sinks": [
+      "L121 println: getWriter().println(\"Hash Test java.security.MessageDigest.getInstance(java.lang.String) executed\")",
+      "L48 println: getWriter().println(\"getQueryString() couldn't find expected parameter '\" + \"BenchmarkTest01655\" + \"",
+      "L106 println: getWriter().println(\"Sensitive value '\" + org.owasp.esapi.ESAPI.encoder().encodeForHTML(new String(i",
+      "L77 getInstance: java.security.MessageDigest.getInstance(algorithm)",
+      "L117 println: System.out.println(\"Problem executing hash - TestCase\")",
+      "L85 println: getWriter().println(\"This input source requires a POST, not a GET. Incompatible UI for the InputStre"
+    ]
+  },
+  "BenchmarkTest00795": {
+    "sources": [
+      "L43 getQueryString: getQueryString()"
+    ],
+    "sinks": [
+      "L120 println: getWriter().println(\"Hash Test java.security.MessageDigest.getInstance(java.lang.String) executed\")",
+      "L48 println: getWriter().println(\"getQueryString() couldn't find expected parameter '\" + \"BenchmarkTest00795\" + \"",
+      "L105 println: getWriter().println(\"Sensitive value '\" + org.owasp.esapi.ESAPI.encoder().encodeForHTML(new String(i",
+      "L76 getInstance: java.security.MessageDigest.getInstance(\"SHA-256\")",
+      "L116 println: System.out.println(\"Problem executing hash - TestCase\")",
+      "L84 println: getWriter().println(\"This input source requires a POST, not a GET. Incompatible UI for the InputStre"
+    ]
+  },
+  "BenchmarkTest01759": {
+    "sources": [],
+    "sinks": [
+      "L107 println: getWriter().println(\"Hash Test java.security.MessageDigest.getInstance(java.lang.String,java.securit",
+      "L87 println: getWriter().println(\"Sensitive value '\" + org.owasp.esapi.ESAPI.encoder().encodeForHTML(new String(i",
+      "L98 println: System.out.println(\"Problem executing hash - TestCase java.security.MessageDigest.getInstance(java.l",
+      "L102 println: System.out.println(\"Problem executing hash - TestCase java.security.MessageDigest.getInstance(java.l",
+      "L55 getInstance: java.security.MessageDigest.getInstance(\"sha-384\", provider[0])",
+      "L57 getInstance: java.security.MessageDigest.getInstance(\"sha-384\", \"SUN\")",
+      "L66 println: getWriter().println(\"This input source requires a POST, not a GET. Incompatible UI for the InputStre"
+    ]
+  },
+  "BenchmarkTest00022": {
+    "sources": [
+      "L44 getParameter: getParameter(\"BenchmarkTest00022\")"
+    ],
+    "sinks": [
+      "L92 println: getWriter().println(\"Hash Test java.security.MessageDigest.getInstance(java.lang.String) executed\")",
+      "L77 println: getWriter().println(\"Sensitive value '\" + org.owasp.esapi.ESAPI.encoder().encodeForHTML(new String(i",
+      "L48 getInstance: java.security.MessageDigest.getInstance(\"SHA-256\")",
+      "L88 println: System.out.println(\"Problem executing hash - TestCase\")",
+      "L56 println: getWriter().println(\"This input source requires a POST, not a GET. Incompatible UI for the InputStre"
+    ]
+  },
+  "BenchmarkTest02119": {
+    "sources": [
+      "L43 getParameter: getParameter(\"BenchmarkTest02119\")"
+    ],
+    "sinks": [
+      "L99 println: getWriter().println(\"Hash Test java.security.MessageDigest.getInstance(java.lang.String,java.lang.St",
+      "L79 println: getWriter().println(\"Sensitive value '\" + org.owasp.esapi.ESAPI.encoder().encodeForHTML(new String(i",
+      "L50 getInstance: java.security.MessageDigest.getInstance(\"SHA-512\", \"SUN\")",
+      "L90 println: System.out.println(\"Problem executing hash - TestCase java.security.MessageDigest.getInstance(java.l",
+      "L94 println: System.out.println(\"Problem executing hash - TestCase java.security.MessageDigest.getInstance(java.l",
+      "L58 println: getWriter().println(\"This input source requires a POST, not a GET. Incompatible UI for the InputStre"
+    ]
+  },
+  "BenchmarkTest00587": {
+    "sources": [],
+    "sinks": [
+      "L68 setAttribute: getSession().setAttribute(bar, \"10340\")",
+      "L70 println: getWriter().println(\"Item: '\" + org.owasp.benchmark.helpers.Utils.encodeForHTML(bar) + \"' with value"
+    ]
+  },
+  "BenchmarkTest02165": {
+    "sources": [
+      "L43 getParameter: getParameter(\"BenchmarkTest02165\")"
+    ],
+    "sinks": [
+      "L49 putValue: getSession().putValue(bar, \"10340\")",
+      "L51 println: getWriter().println(\"Item: '\" + org.owasp.benchmark.helpers.Utils.encodeForHTML(bar) + \"' with value"
+    ]
+  },
+  "BenchmarkTest01206": {
+    "sources": [
+      "L44 getHeaders: getHeaders(\"BenchmarkTest01206\")"
+    ],
+    "sinks": [
+      "L56 putValue: getSession().putValue(\"userid\", bar)",
+      "L58 println: getWriter().println(\"Item: 'userid' with value: '\" + org.owasp.benchmark.helpers.Utils.encodeForHTML"
+    ]
+  },
+  "BenchmarkTest01546": {
+    "sources": [],
+    "sinks": [
+      "L51 putValue: getSession().putValue(bar, \"10340\")",
+      "L53 println: getWriter().println(\"Item: '\" + org.owasp.benchmark.helpers.Utils.encodeForHTML(bar) + \"' with value"
+    ]
+  },
+  "BenchmarkTest02624": {
+    "sources": [
+      "L43 getQueryString: getQueryString()"
+    ],
+    "sinks": [
+      "L73 setAttribute: getSession().setAttribute(\"userid\", bar)",
+      "L75 println: getWriter().println(\"Item: 'userid' with value: '\" + org.owasp.benchmark.helpers.Utils.encodeForHTML",
+      "L48 println: getWriter().println(\"getQueryString() couldn't find expected parameter '\" + \"BenchmarkTest02624\" + \""
+    ]
+  },
+  "BenchmarkTest01375": {
+    "sources": [],
+    "sinks": [
+      "L53 putValue: getSession().putValue(\"userid\", bar)",
+      "L55 println: getWriter().println(\"Item: 'userid' with value: '\" + org.owasp.benchmark.helpers.Utils.encodeForHTML"
+    ]
+  },
+  "BenchmarkTest01709": {
+    "sources": [
+      "L43 getQueryString: getQueryString()"
+    ],
+    "sinks": [
+      "L73 putValue: getSession().putValue(\"userid\", bar)",
+      "L75 println: getWriter().println(\"Item: 'userid' with value: '\" + org.owasp.benchmark.helpers.Utils.encodeForHTML",
+      "L48 println: getWriter().println(\"getQueryString() couldn't find expected parameter '\" + \"BenchmarkTest01709\" + \""
+    ]
+  },
+  "BenchmarkTest00756": {
+    "sources": [],
+    "sinks": [
+      "L51 putValue: getSession().putValue(\"userid\", bar)",
+      "L53 println: getWriter().println(\"Item: 'userid' with value: '\" + org.owasp.benchmark.helpers.Utils.encodeForHTML"
+    ]
+  },
+  "BenchmarkTest01872": {
+    "sources": [
+      "L41 getRequestURI: getRequestURI()",
+      "L54 getCookies: getCookies()"
+    ],
+    "sinks": [
+      "L39 setSecure: setSecure(true)",
+      "L43 addCookie: addCookie(userCookie)",
+      "L69 putValue: getSession().putValue(bar, \"10340\")",
+      "L71 println: getWriter().println(\"Item: '\" + org.owasp.benchmark.helpers.Utils.encodeForHTML(bar) + \"' with value"
+    ]
+  },
+  "BenchmarkTest00004": {
+    "sources": [
+      "L41 getRequestURI: getRequestURI()",
+      "L55 getCookies: getCookies()"
+    ],
+    "sinks": [
+      "L39 setSecure: setSecure(true)",
+      "L43 addCookie: addCookie(userCookie)",
+      "L68 setAttribute: getSession().setAttribute(param, \"10340\")",
+      "L70 println: getWriter().println(\"Item: '\" + org.owasp.benchmark.helpers.Utils.encodeForHTML(param) + \"' with val"
+    ]
+  },
+  "BenchmarkTest00993": {
+    "sources": [
+      "L41 getRequestURI: getRequestURI()",
+      "L54 getCookies: getCookies()"
+    ],
+    "sinks": [
+      "L39 setSecure: setSecure(true)",
+      "L43 addCookie: addCookie(userCookie)",
+      "L69 putValue: getSession().putValue(\"userid\", bar)",
+      "L71 println: getWriter().println(\"Item: 'userid' with value: '\" + org.owasp.benchmark.helpers.Utils.encodeForHTML"
+    ]
+  },
+  "BenchmarkTest02085": {
+    "sources": [
+      "L44 getHeaders: getHeaders(\"BenchmarkTest02085\")"
+    ],
+    "sinks": [
+      "L56 setAttribute: getSession().setAttribute(\"userid\", bar)",
+      "L58 println: getWriter().println(\"Item: 'userid' with value: '\" + org.owasp.benchmark.helpers.Utils.encodeForHTML"
+    ]
+  },
+  "BenchmarkTest00758": {
+    "sources": [],
+    "sinks": [
+      "L61 setAttribute: getSession().setAttribute(\"userid\", bar)",
+      "L63 println: getWriter().println(\"Item: 'userid' with value: '\" + org.owasp.benchmark.helpers.Utils.encodeForHTML"
+    ]
+  },
+  "BenchmarkTest02725": {
+    "sources": [],
+    "sinks": [
+      "L50 setAttribute: getSession().setAttribute(\"userid\", bar)",
+      "L52 println: getWriter().println(\"Item: 'userid' with value: '\" + org.owasp.benchmark.helpers.Utils.encodeForHTML"
+    ]
+  },
+  "BenchmarkTest00322": {
+    "sources": [
+      "L44 getHeaders: getHeaders(\"BenchmarkTest00322\")"
+    ],
+    "sinks": [
+      "L62 putValue: getSession().putValue(\"userid\", bar)",
+      "L64 println: getWriter().println(\"Item: 'userid' with value: '\" + org.owasp.benchmark.helpers.Utils.encodeForHTML"
+    ]
+  },
+  "BenchmarkTest01144": {
+    "sources": [
+      "L44 getHeaderNames: getHeaderNames()",
+      "L52 getHeaders: getHeaders(name)"
+    ],
+    "sinks": [
+      "L64 setAttribute: getSession().setAttribute(\"userid\", bar)",
+      "L66 println: getWriter().println(\"Item: 'userid' with value: '\" + org.owasp.benchmark.helpers.Utils.encodeForHTML"
+    ]
+  },
+  "BenchmarkTest02723": {
+    "sources": [],
+    "sinks": [
+      "L50 putValue: getSession().putValue(bar, \"10340\")",
+      "L52 println: getWriter().println(\"Item: '\" + org.owasp.benchmark.helpers.Utils.encodeForHTML(bar) + \"' with value"
+    ]
+  },
+  "BenchmarkTest00835": {
+    "sources": [
+      "L43 getQueryString: getQueryString()"
+    ],
+    "sinks": [
+      "L83 setAttribute: getSession().setAttribute(\"userid\", bar)",
+      "L85 println: getWriter().println(\"Item: 'userid' with value: '\" + org.owasp.benchmark.helpers.Utils.encodeForHTML",
+      "L48 println: getWriter().println(\"getQueryString() couldn't find expected parameter '\" + \"BenchmarkTest00835\" + \""
+    ]
+  },
+  "BenchmarkTest00669": {
+    "sources": [],
+    "sinks": [
+      "L56 putValue: getSession().putValue(bar, \"10340\")",
+      "L58 println: getWriter().println(\"Item: '\" + org.owasp.benchmark.helpers.Utils.encodeForHTML(bar) + \"' with value"
+    ]
+  },
+  "BenchmarkTest01207": {
+    "sources": [
+      "L44 getHeaders: getHeaders(\"BenchmarkTest01207\")"
+    ],
+    "sinks": [
+      "L56 setAttribute: getSession().setAttribute(bar, \"10340\")",
+      "L58 println: getWriter().println(\"Item: '\" + org.owasp.benchmark.helpers.Utils.encodeForHTML(bar) + \"' with value"
+    ]
+  },
+  "BenchmarkTest00736": {
+    "sources": [
+      "L74 getRequestURI: getRequestURI()"
+    ],
+    "sinks": [
+      "L72 setSecure: setSecure(false)",
+      "L76 addCookie: addCookie(cookie)",
+      "L78 println: getWriter().println(\"Created cookie: 'SomeCookie': with value: '\" + org.owasp.esapi.ESAPI.encoder().",
+      "L62 println: getWriter().println(\"This input source requires a POST, not a GET. Incompatible UI for the InputStre"
+    ]
+  },
+  "BenchmarkTest02709": {
+    "sources": [
+      "L68 getRequestURI: getRequestURI()"
+    ],
+    "sinks": [
+      "L66 setSecure: setSecure(false)",
+      "L70 addCookie: addCookie(cookie)",
+      "L72 println: getWriter().println(\"Created cookie: 'SomeCookie': with value: '\" + org.owasp.esapi.ESAPI.encoder().",
+      "L56 println: getWriter().println(\"This input source requires a POST, not a GET. Incompatible UI for the InputStre"
+    ]
+  },
+  "BenchmarkTest02507": {
+    "sources": [
+      "L69 getRequestURI: getRequestURI()"
+    ],
+    "sinks": [
+      "L67 setSecure: setSecure(false)",
+      "L71 addCookie: addCookie(cookie)",
+      "L73 println: getWriter().println(\"Created cookie: 'SomeCookie': with value: '\" + org.owasp.esapi.ESAPI.encoder().",
+      "L57 println: getWriter().println(\"This input source requires a POST, not a GET. Incompatible UI for the InputStre"
+    ]
+  },
+  "BenchmarkTest00087": {
+    "sources": [
+      "L41 getRequestURI: getRequestURI()",
+      "L54 getCookies: getCookies()",
+      "L94 getRequestURI: getRequestURI()"
+    ],
+    "sinks": [
+      "L39 setSecure: setSecure(true)",
+      "L43 addCookie: addCookie(userCookie)",
+      "L92 setSecure: setSecure(false)",
+      "L96 addCookie: addCookie(cookie)",
+      "L98 println: getWriter().println(\"Created cookie: 'SomeCookie': with value: '\" + org.owasp.esapi.ESAPI.encoder().",
+      "L82 println: getWriter().println(\"This input source requires a POST, not a GET. Incompatible UI for the InputStre"
+    ]
+  },
+  "BenchmarkTest01280": {
+    "sources": [
+      "L43 getParameter: getParameter(\"BenchmarkTest01280\")",
+      "L67 getRequestURI: getRequestURI()"
+    ],
+    "sinks": [
+      "L65 setSecure: setSecure(false)",
+      "L69 addCookie: addCookie(cookie)",
+      "L71 println: getWriter().println(\"Created cookie: 'SomeCookie': with value: '\" + org.owasp.esapi.ESAPI.encoder().",
+      "L55 println: getWriter().println(\"This input source requires a POST, not a GET. Incompatible UI for the InputStre"
+    ]
+  },
+  "BenchmarkTest01061": {
+    "sources": [
+      "L72 getRequestURI: getRequestURI()",
+      "L44 getHeader: getHeader(\"BenchmarkTest01061\")",
+      "L45 getHeader: getHeader(\"BenchmarkTest01061\")"
+    ],
+    "sinks": [
+      "L70 setSecure: setSecure(false)",
+      "L74 addCookie: addCookie(cookie)",
+      "L76 println: getWriter().println(\"Created cookie: 'SomeCookie': with value: '\" + org.owasp.esapi.ESAPI.encoder().",
+      "L60 println: getWriter().println(\"This input source requires a POST, not a GET. Incompatible UI for the InputStre"
+    ]
+  },
+  "BenchmarkTest02427": {
+    "sources": [
+      "L69 getRequestURI: getRequestURI()"
+    ],
+    "sinks": [
+      "L67 setSecure: setSecure(false)",
+      "L71 addCookie: addCookie(cookie)",
+      "L73 println: getWriter().println(\"Created cookie: 'SomeCookie': with value: '\" + org.owasp.esapi.ESAPI.encoder().",
+      "L57 println: getWriter().println(\"This input source requires a POST, not a GET. Incompatible UI for the InputStre"
+    ]
+  },
+  "BenchmarkTest00241": {
+    "sources": [
+      "L44 getHeaderNames: getHeaderNames()",
+      "L87 getRequestURI: getRequestURI()",
+      "L52 getHeaders: getHeaders(name)"
+    ],
+    "sinks": [
+      "L85 setSecure: setSecure(false)",
+      "L89 addCookie: addCookie(cookie)",
+      "L91 println: getWriter().println(\"Created cookie: 'SomeCookie': with value: '\" + org.owasp.esapi.ESAPI.encoder().",
+      "L75 println: getWriter().println(\"This input source requires a POST, not a GET. Incompatible UI for the InputStre"
+    ]
+  },
+  "BenchmarkTest00820": {
+    "sources": [
+      "L43 getQueryString: getQueryString()",
+      "L91 getRequestURI: getRequestURI()"
+    ],
+    "sinks": [
+      "L89 setSecure: setSecure(false)",
+      "L93 addCookie: addCookie(cookie)",
+      "L95 println: getWriter().println(\"Created cookie: 'SomeCookie': with value: '\" + org.owasp.esapi.ESAPI.encoder().",
+      "L48 println: getWriter().println(\"getQueryString() couldn't find expected parameter '\" + \"BenchmarkTest00820\" + \"",
+      "L79 println: getWriter().println(\"This input source requires a POST, not a GET. Incompatible UI for the InputStre"
+    ]
+  },
+  "BenchmarkTest01683": {
+    "sources": [
+      "L43 getQueryString: getQueryString()",
+      "L91 getRequestURI: getRequestURI()"
+    ],
+    "sinks": [
+      "L89 setSecure: setSecure(false)",
+      "L93 addCookie: addCookie(cookie)",
+      "L95 println: getWriter().println(\"Created cookie: 'SomeCookie': with value: '\" + org.owasp.esapi.ESAPI.encoder().",
+      "L48 println: getWriter().println(\"getQueryString() couldn't find expected parameter '\" + \"BenchmarkTest01683\" + \"",
+      "L79 println: getWriter().println(\"This input source requires a POST, not a GET. Incompatible UI for the InputStre"
+    ]
+  },
+  "BenchmarkTest02144": {
+    "sources": [
+      "L43 getParameter: getParameter(\"BenchmarkTest02144\")",
+      "L67 getRequestURI: getRequestURI()"
+    ],
+    "sinks": [
+      "L65 setSecure: setSecure(true)",
+      "L69 addCookie: addCookie(cookie)",
+      "L71 println: getWriter().println(\"Created cookie: 'SomeCookie': with value: '\" + org.owasp.esapi.ESAPI.encoder().",
+      "L55 println: getWriter().println(\"This input source requires a POST, not a GET. Incompatible UI for the InputStre"
+    ]
+  },
+  "BenchmarkTest01359": {
+    "sources": [
+      "L71 getRequestURI: getRequestURI()"
+    ],
+    "sinks": [
+      "L69 setSecure: setSecure(true)",
+      "L73 addCookie: addCookie(cookie)",
+      "L75 println: getWriter().println(\"Created cookie: 'SomeCookie': with value: '\" + org.owasp.esapi.ESAPI.encoder().",
+      "L59 println: getWriter().println(\"This input source requires a POST, not a GET. Incompatible UI for the InputStre"
+    ]
+  },
+  "BenchmarkTest00904": {
+    "sources": [
+      "L75 getRequestURI: getRequestURI()"
+    ],
+    "sinks": [
+      "L73 setSecure: setSecure(true)",
+      "L77 addCookie: addCookie(cookie)",
+      "L79 println: getWriter().println(\"Created cookie: 'SomeCookie': with value: '\" + org.owasp.esapi.ESAPI.encoder().",
+      "L63 println: getWriter().println(\"This input source requires a POST, not a GET. Incompatible UI for the InputStre"
+    ]
+  },
+  "BenchmarkTest00088": {
+    "sources": [
+      "L41 getRequestURI: getRequestURI()",
+      "L54 getCookies: getCookies()",
+      "L87 getRequestURI: getRequestURI()"
+    ],
+    "sinks": [
+      "L39 setSecure: setSecure(true)",
+      "L43 addCookie: addCookie(userCookie)",
+      "L85 setSecure: setSecure(true)",
+      "L89 addCookie: addCookie(cookie)",
+      "L91 println: getWriter().println(\"Created cookie: 'SomeCookie': with value: '\" + org.owasp.esapi.ESAPI.encoder().",
+      "L75 println: getWriter().println(\"This input source requires a POST, not a GET. Incompatible UI for the InputStre"
+    ]
+  },
+  "BenchmarkTest02508": {
+    "sources": [
+      "L69 getRequestURI: getRequestURI()"
+    ],
+    "sinks": [
+      "L67 setSecure: setSecure(true)",
+      "L71 addCookie: addCookie(cookie)",
+      "L73 println: getWriter().println(\"Created cookie: 'SomeCookie': with value: '\" + org.owasp.esapi.ESAPI.encoder().",
+      "L57 println: getWriter().println(\"This input source requires a POST, not a GET. Incompatible UI for the InputStre"
+    ]
+  },
+  "BenchmarkTest01863": {
+    "sources": [
+      "L41 getRequestURI: getRequestURI()",
+      "L54 getCookies: getCookies()",
+      "L87 getRequestURI: getRequestURI()"
+    ],
+    "sinks": [
+      "L39 setSecure: setSecure(true)",
+      "L43 addCookie: addCookie(userCookie)",
+      "L85 setSecure: setSecure(true)",
+      "L89 addCookie: addCookie(cookie)",
+      "L91 println: getWriter().println(\"Created cookie: 'SomeCookie': with value: '\" + org.owasp.esapi.ESAPI.encoder().",
+      "L75 println: getWriter().println(\"This input source requires a POST, not a GET. Incompatible UI for the InputStre"
+    ]
+  },
+  "BenchmarkTest00089": {
+    "sources": [
+      "L41 getRequestURI: getRequestURI()",
+      "L54 getCookies: getCookies()",
+      "L92 getRequestURI: getRequestURI()"
+    ],
+    "sinks": [
+      "L39 setSecure: setSecure(true)",
+      "L43 addCookie: addCookie(userCookie)",
+      "L90 setSecure: setSecure(true)",
+      "L94 addCookie: addCookie(cookie)",
+      "L96 println: getWriter().println(\"Created cookie: 'SomeCookie': with value: '\" + org.owasp.esapi.ESAPI.encoder().",
+      "L80 println: getWriter().println(\"This input source requires a POST, not a GET. Incompatible UI for the InputStre"
+    ]
+  },
+  "BenchmarkTest02143": {
+    "sources": [
+      "L43 getParameter: getParameter(\"BenchmarkTest02143\")",
+      "L67 getRequestURI: getRequestURI()"
+    ],
+    "sinks": [
+      "L65 setSecure: setSecure(true)",
+      "L69 addCookie: addCookie(cookie)",
+      "L71 println: getWriter().println(\"Created cookie: 'SomeCookie': with value: '\" + org.owasp.esapi.ESAPI.encoder().",
+      "L55 println: getWriter().println(\"This input source requires a POST, not a GET. Incompatible UI for the InputStre"
+    ]
+  },
+  "BenchmarkTest01605": {
+    "sources": [
+      "L69 getRequestURI: getRequestURI()"
+    ],
+    "sinks": [
+      "L67 setSecure: setSecure(true)",
+      "L71 addCookie: addCookie(cookie)",
+      "L73 println: getWriter().println(\"Created cookie: 'SomeCookie': with value: '\" + org.owasp.esapi.ESAPI.encoder().",
+      "L57 println: getWriter().println(\"This input source requires a POST, not a GET. Incompatible UI for the InputStre"
+    ]
+  },
+  "BenchmarkTest02066": {
+    "sources": [
+      "L44 getHeaders: getHeaders(\"BenchmarkTest02066\")",
+      "L74 getRequestURI: getRequestURI()"
+    ],
+    "sinks": [
+      "L72 setSecure: setSecure(true)",
+      "L76 addCookie: addCookie(cookie)",
+      "L78 println: getWriter().println(\"Created cookie: 'SomeCookie': with value: '\" + org.owasp.esapi.ESAPI.encoder().",
+      "L62 println: getWriter().println(\"This input source requires a POST, not a GET. Incompatible UI for the InputStre"
+    ]
+  },
+  "BenchmarkTest02305": {
+    "sources": [],
+    "sinks": [
+      "L76 search: idc.search(base, filter, filters, sc)",
+      "L105 println: getWriter().println(\"LDAP query results: nothing found for query: \" + org.owasp.esapi.ESAPI.encoder(",
+      "L85 println: getWriter().println(\"LDAP query results:<br>\" + \"Record found with name \" + org.owasp.esapi.ESAPI.en"
+    ]
+  },
+  "BenchmarkTest01832": {
+    "sources": [
+      "L41 getRequestURI: getRequestURI()",
+      "L54 getCookies: getCookies()"
+    ],
+    "sinks": [
+      "L39 setSecure: setSecure(true)",
+      "L43 addCookie: addCookie(userCookie)",
+      "L79 search: ctx.search(base, filter, filters, sc)",
+      "L108 println: getWriter().println(\"LDAP query results: nothing found for query: \" + org.owasp.esapi.ESAPI.encoder(",
+      "L88 println: getWriter().println(\"LDAP query results:<br>\" + \"Record found with name \" + org.owasp.esapi.ESAPI.en"
+    ]
+  },
+  "BenchmarkTest02472": {
+    "sources": [],
+    "sinks": [
+      "L64 search: idc.search(base, filter, filters, sc)",
+      "L93 println: getWriter().println(\"LDAP query results: nothing found for query: \" + org.owasp.esapi.ESAPI.encoder(",
+      "L73 println: getWriter().println(\"LDAP query results:<br>\" + \"Record found with name \" + org.owasp.esapi.ESAPI.en"
+    ]
+  },
+  "BenchmarkTest00694": {
+    "sources": [],
+    "sinks": [
+      "L60 search: ctx.search(base, filter, sc)",
+      "L89 println: getWriter().println(\"LDAP query results: nothing found for query: \" + org.owasp.esapi.ESAPI.encoder(",
+      "L69 println: getWriter().println(\"LDAP query results:<br>\" + \"Record found with name \" + org.owasp.esapi.ESAPI.en"
+    ]
+  },
+  "BenchmarkTest02299": {
+    "sources": [],
+    "sinks": [
+      "L72 search: ctx.search(base, filter, sc)",
+      "L101 println: getWriter().println(\"LDAP query results: nothing found for query: \" + org.owasp.esapi.ESAPI.encoder(",
+      "L81 println: getWriter().println(\"LDAP query results:<br>\" + \"Record found with name \" + org.owasp.esapi.ESAPI.en"
+    ]
+  },
+  "BenchmarkTest02196": {
+    "sources": [],
+    "sinks": [
+      "L62 search: ctx.search(base, filter, sc)",
+      "L91 println: getWriter().println(\"LDAP query results: nothing found for query: \" + org.owasp.esapi.ESAPI.encoder(",
+      "L71 println: getWriter().println(\"LDAP query results:<br>\" + \"Record found with name \" + org.owasp.esapi.ESAPI.en"
+    ]
+  },
+  "BenchmarkTest01568": {
+    "sources": [],
+    "sinks": [
+      "L60 search: ctx.search(base, filter, sc)",
+      "L89 println: getWriter().println(\"LDAP query results: nothing found for query: \" + org.owasp.esapi.ESAPI.encoder(",
+      "L69 println: getWriter().println(\"LDAP query results:<br>\" + \"Record found with name \" + org.owasp.esapi.ESAPI.en"
+    ]
+  },
+  "BenchmarkTest02306": {
+    "sources": [],
+    "sinks": [
+      "L75 search: idc.search(base, filter, sc)",
+      "L105 println: getWriter().println(\"LDAP query results: nothing found for query: \" + org.owasp.esapi.ESAPI.encoder(",
+      "L85 println: getWriter().println(\"LDAP query results:<br>\" + \"Record found with name \" + org.owasp.esapi.ESAPI.en"
+    ]
+  },
+  "BenchmarkTest00695": {
+    "sources": [],
+    "sinks": [
+      "L65 search: ctx.search(base, filter, sc)",
+      "L94 println: getWriter().println(\"LDAP query results: nothing found for query: \" + org.owasp.esapi.ESAPI.encoder(",
+      "L74 println: getWriter().println(\"LDAP query results:<br>\" + \"Record found with name \" + org.owasp.esapi.ESAPI.en"
+    ]
+  },
+  "BenchmarkTest01023": {
+    "sources": [
+      "L44 getHeader: getHeader(\"BenchmarkTest01023\")",
+      "L45 getHeader: getHeader(\"BenchmarkTest01023\")"
+    ],
+    "sinks": [
+      "L64 search: ctx.search(base, filter, filters, sc)",
+      "L93 println: getWriter().println(\"LDAP query results: nothing found for query: \" + org.owasp.esapi.ESAPI.encoder(",
+      "L73 println: getWriter().println(\"LDAP query results:<br>\" + \"Record found with name \" + org.owasp.esapi.ESAPI.en"
+    ]
+  },
+  "BenchmarkTest02376": {
+    "sources": [],
+    "sinks": [
+      "L61 search: ctx.search(base, filter, filters, sc)",
+      "L90 println: getWriter().println(\"LDAP query results: nothing found for query: \" + org.owasp.esapi.ESAPI.encoder(",
+      "L70 println: getWriter().println(\"LDAP query results:<br>\" + \"Record found with name \" + org.owasp.esapi.ESAPI.en"
+    ]
+  },
+  "BenchmarkTest02571": {
+    "sources": [
+      "L43 getQueryString: getQueryString()"
+    ],
+    "sinks": [
+      "L48 println: getWriter().println(\"getQueryString() couldn't find expected parameter '\" + \"BenchmarkTest02571\" + \"",
+      "L86 search: idc.search(base, filter, filters, sc)",
+      "L115 println: getWriter().println(\"LDAP query results: nothing found for query: \" + org.owasp.esapi.ESAPI.encoder(",
+      "L95 println: getWriter().println(\"LDAP query results:<br>\" + \"Record found with name \" + org.owasp.esapi.ESAPI.en"
+    ]
+  },
+  "BenchmarkTest00861": {
+    "sources": [],
+    "sinks": [
+      "L78 search: ctx.search(base, filter, sc)",
+      "L107 println: getWriter().println(\"LDAP query results: nothing found for query: \" + org.owasp.esapi.ESAPI.encoder(",
+      "L87 println: getWriter().println(\"LDAP query results:<br>\" + \"Record found with name \" + org.owasp.esapi.ESAPI.en"
+    ]
+  },
+  "BenchmarkTest01754": {
+    "sources": [],
+    "sinks": [
+      "L63 search: idc.search(base, filter, filters, sc)",
+      "L92 println: getWriter().println(\"LDAP query results: nothing found for query: \" + org.owasp.esapi.ESAPI.encoder(",
+      "L72 println: getWriter().println(\"LDAP query results:<br>\" + \"Record found with name \" + org.owasp.esapi.ESAPI.en"
+    ]
+  },
+  "BenchmarkTest02114": {
+    "sources": [
+      "L43 getParameter: getParameter(\"BenchmarkTest02114\")"
+    ],
+    "sinks": [
+      "L62 search: idc.search(base, filter, filters, sc)",
+      "L91 println: getWriter().println(\"LDAP query results: nothing found for query: \" + org.owasp.esapi.ESAPI.encoder(",
+      "L71 println: getWriter().println(\"LDAP query results:<br>\" + \"Record found with name \" + org.owasp.esapi.ESAPI.en"
+    ]
+  },
+  "BenchmarkTest02104": {
+    "sources": [
+      "L43 getParameter: getParameter(\"BenchmarkTest02104\")"
+    ],
+    "sinks": [
+      "L59 search: ctx.search(base, filter, filters, sc)",
+      "L88 println: getWriter().println(\"LDAP query results: nothing found for query: \" + org.owasp.esapi.ESAPI.encoder(",
+      "L68 println: getWriter().println(\"LDAP query results:<br>\" + \"Record found with name \" + org.owasp.esapi.ESAPI.en"
+    ]
+  },
+  "BenchmarkTest02025": {
+    "sources": [
+      "L44 getHeaders: getHeaders(\"BenchmarkTest02025\")"
+    ],
+    "sinks": [
+      "L65 search: ctx.search(base, filter, sc)",
+      "L94 println: getWriter().println(\"LDAP query results: nothing found for query: \" + org.owasp.esapi.ESAPI.encoder(",
+      "L74 println: getWriter().println(\"LDAP query results:<br>\" + \"Record found with name \" + org.owasp.esapi.ESAPI.en"
+    ]
+  },
+  "BenchmarkTest02553": {
+    "sources": [
+      "L43 getQueryString: getQueryString()"
+    ],
+    "sinks": [
+      "L48 println: getWriter().println(\"getQueryString() couldn't find expected parameter '\" + \"BenchmarkTest02553\" + \"",
+      "L83 search: ctx.search(base, filter, filters, sc)",
+      "L112 println: getWriter().println(\"LDAP query results: nothing found for query: \" + org.owasp.esapi.ESAPI.encoder(",
+      "L92 println: getWriter().println(\"LDAP query results:<br>\" + \"Record found with name \" + org.owasp.esapi.ESAPI.en"
+    ]
+  },
+  "BenchmarkTest02115": {
+    "sources": [
+      "L43 getParameter: getParameter(\"BenchmarkTest02115\")"
+    ],
+    "sinks": [
+      "L62 search: idc.search(base, filter, filters, sc)",
+      "L91 println: getWriter().println(\"LDAP query results: nothing found for query: \" + org.owasp.esapi.ESAPI.encoder(",
+      "L71 println: getWriter().println(\"LDAP query results:<br>\" + \"Record found with name \" + org.owasp.esapi.ESAPI.en"
+    ]
+  },
+  "BenchmarkTest01154": {
+    "sources": [
+      "L44 getHeaders: getHeaders(\"BenchmarkTest01154\")"
+    ],
+    "sinks": [
+      "L66 search: ctx.search(base, filter, filters, sc)",
+      "L95 println: getWriter().println(\"LDAP query results: nothing found for query: \" + org.owasp.esapi.ESAPI.encoder(",
+      "L75 println: getWriter().println(\"LDAP query results:<br>\" + \"Record found with name \" + org.owasp.esapi.ESAPI.en"
+    ]
+  },
+  "BenchmarkTest01478": {
+    "sources": [],
+    "sinks": [
+      "L82 println: getWriter().println(\"Your query results are: <br/>\")",
+      "L91 println: getWriter().println(\"Error parsing XPath input: '\" + org.owasp.esapi.ESAPI.encoder().encodeForHTML(b",
+      "L79 evaluate: xp.compile(expression).evaluate(xmlDocument, javax.xml.xpath.XPathConstants.NODESET)",
+      "L86 println: getWriter().println(value.getTextContent() + \"<br/>\")"
+    ]
+  },
+  "BenchmarkTest01892": {
+    "sources": [
+      "L41 getRequestURI: getRequestURI()",
+      "L54 getCookies: getCookies()"
+    ],
+    "sinks": [
+      "L39 setSecure: setSecure(true)",
+      "L43 addCookie: addCookie(userCookie)",
+      "L88 println: getWriter().println(\"Your query results are: <br/>\")",
+      "L97 println: getWriter().println(\"Error parsing XPath input: '\" + org.owasp.esapi.ESAPI.encoder().encodeForHTML(b",
+      "L85 evaluate: xp.compile(expression).evaluate(xmlDocument, javax.xml.xpath.XPathConstants.NODESET)",
+      "L92 println: getWriter().println(value.getTextContent() + \"<br/>\")"
+    ]
+  },
+  "BenchmarkTest02100": {
+    "sources": [
+      "L44 getHeaders: getHeaders(\"BenchmarkTest02100\")"
+    ],
+    "sinks": [
+      "L75 println: getWriter().println(\"Your query results are: <br/>\")",
+      "L84 println: getWriter().println(\"Error parsing XPath input: '\" + org.owasp.esapi.ESAPI.encoder().encodeForHTML(b",
+      "L72 evaluate: xp.compile(expression).evaluate(xmlDocument, javax.xml.xpath.XPathConstants.NODESET)",
+      "L79 println: getWriter().println(value.getTextContent() + \"<br/>\")"
+    ]
+  },
+  "BenchmarkTest01316": {
+    "sources": [
+      "L43 getParameter: getParameter(\"BenchmarkTest01316\")"
+    ],
+    "sinks": [
+      "L65 println: getWriter().println(\"Your query results are: \" + result + \"<br/>\")",
+      "L63 evaluate: xp.evaluate(expression, xmlDocument)",
+      "L70 println: getWriter().println(\"Error parsing XPath input: '\" + org.owasp.esapi.ESAPI.encoder().encodeForHTML(b"
+    ]
+  },
+  "BenchmarkTest01561": {
+    "sources": [],
+    "sinks": [
+      "L70 println: getWriter().println(\"Your query results are: <br/>\")",
+      "L79 println: getWriter().println(\"Error parsing XPath input: '\" + org.owasp.esapi.ESAPI.encoder().encodeForHTML(b",
+      "L67 evaluate: xp.compile(expression).evaluate(xmlDocument, javax.xml.xpath.XPathConstants.NODESET)",
+      "L74 println: getWriter().println(value.getTextContent() + \"<br/>\")"
+    ]
+  },
+  "BenchmarkTest01734": {
+    "sources": [
+      "L43 getQueryString: getQueryString()"
+    ],
+    "sinks": [
+      "L48 println: getWriter().println(\"getQueryString() couldn't find expected parameter '\" + \"BenchmarkTest01734\" + \"",
+      "L92 println: getWriter().println(\"Your query results are: <br/>\")",
+      "L101 println: getWriter().println(\"Error parsing XPath input: '\" + org.owasp.esapi.ESAPI.encoder().encodeForHTML(b",
+      "L89 evaluate: xp.compile(expression).evaluate(xmlDocument, javax.xml.xpath.XPathConstants.NODESET)",
+      "L96 println: getWriter().println(value.getTextContent() + \"<br/>\")"
+    ]
+  },
+  "BenchmarkTest01974": {
+    "sources": [
+      "L44 getHeader: getHeader(\"BenchmarkTest01974\")",
+      "L45 getHeader: getHeader(\"BenchmarkTest01974\")"
+    ],
+    "sinks": [
+      "L73 println: getWriter().println(\"Your query results are: <br/>\")",
+      "L82 println: getWriter().println(\"Error parsing XPath input: '\" + org.owasp.esapi.ESAPI.encoder().encodeForHTML(b",
+      "L70 evaluate: xp.compile(expression).evaluate(xmlDocument, javax.xml.xpath.XPathConstants.NODESET)",
+      "L77 println: getWriter().println(value.getTextContent() + \"<br/>\")"
+    ]
+  },
+  "BenchmarkTest00442": {
+    "sources": [
+      "L43 getParameter: getParameter(\"BenchmarkTest00442\")"
+    ],
+    "sinks": [
+      "L70 println: getWriter().println(\"Your query results are: \" + result + \"<br/>\")",
+      "L68 evaluate: xp.evaluate(expression, xmlDocument)",
+      "L75 println: getWriter().println(\"Error parsing XPath input: '\" + org.owasp.esapi.ESAPI.encoder().encodeForHTML(b"
+    ]
+  },
+  "BenchmarkTest01736": {
+    "sources": [
+      "L43 getQueryString: getQueryString()"
+    ],
+    "sinks": [
+      "L48 println: getWriter().println(\"getQueryString() couldn't find expected parameter '\" + \"BenchmarkTest01736\" + \"",
+      "L89 println: getWriter().println(\"Your query results are: \" + result + \"<br/>\")",
+      "L87 evaluate: xp.evaluate(expression, xmlDocument)",
+      "L94 println: getWriter().println(\"Error parsing XPath input: '\" + org.owasp.esapi.ESAPI.encoder().encodeForHTML(b"
+    ]
+  },
+  "BenchmarkTest02189": {
+    "sources": [
+      "L43 getParameter: getParameter(\"BenchmarkTest02189\")"
+    ],
+    "sinks": [
+      "L68 println: getWriter().println(\"Your query results are: <br/>\")",
+      "L77 println: getWriter().println(\"Error parsing XPath input: '\" + org.owasp.esapi.ESAPI.encoder().encodeForHTML(b",
+      "L65 evaluate: xp.compile(expression).evaluate(xmlDocument, javax.xml.xpath.XPathConstants.NODESET)",
+      "L72 println: getWriter().println(value.getTextContent() + \"<br/>\")"
+    ]
+  },
+  "BenchmarkTest00118": {
+    "sources": [
+      "L41 getRequestURI: getRequestURI()",
+      "L54 getCookies: getCookies()"
+    ],
+    "sinks": [
+      "L39 setSecure: setSecure(true)",
+      "L43 addCookie: addCookie(userCookie)",
+      "L90 println: getWriter().println(\"Your query results are: \" + result + \"<br/>\")",
+      "L88 evaluate: xp.evaluate(expression, xmlDocument)",
+      "L95 println: getWriter().println(\"Error parsing XPath input: '\" + org.owasp.esapi.ESAPI.encoder().encodeForHTML(b"
+    ]
+  },
+  "BenchmarkTest01397": {
+    "sources": [],
+    "sinks": [
+      "L69 println: getWriter().println(\"Your query results are: \" + result + \"<br/>\")",
+      "L67 evaluate: xp.evaluate(expression, xmlDocument)",
+      "L74 println: getWriter().println(\"Error parsing XPath input: '\" + org.owasp.esapi.ESAPI.encoder().encodeForHTML(b"
+    ]
+  },
+  "BenchmarkTest00116": {
+    "sources": [
+      "L41 getRequestURI: getRequestURI()",
+      "L54 getCookies: getCookies()"
+    ],
+    "sinks": [
+      "L39 setSecure: setSecure(true)",
+      "L43 addCookie: addCookie(userCookie)",
+      "L94 println: getWriter().println(\"Your query results are: <br/>\")",
+      "L103 println: getWriter().println(\"Error parsing XPath input: '\" + org.owasp.esapi.ESAPI.encoder().encodeForHTML(b",
+      "L91 evaluate: xp.compile(expression).evaluate(xmlDocument, javax.xml.xpath.XPathConstants.NODESET)",
+      "L98 println: getWriter().println(value.getTextContent() + \"<br/>\")"
+    ]
+  },
+  "BenchmarkTest01013": {
+    "sources": [
+      "L41 getRequestURI: getRequestURI()",
+      "L54 getCookies: getCookies()"
+    ],
+    "sinks": [
+      "L39 setSecure: setSecure(true)",
+      "L43 addCookie: addCookie(userCookie)",
+      "L88 println: getWriter().println(\"Your query results are: <br/>\")",
+      "L97 println: getWriter().println(\"Error parsing XPath input: '\" + org.owasp.esapi.ESAPI.encoder().encodeForHTML(b",
+      "L85 evaluate: xp.compile(expression).evaluate(xmlDocument, javax.xml.xpath.XPathConstants.NODESET)",
+      "L92 println: getWriter().println(value.getTextContent() + \"<br/>\")"
+    ]
+  },
+  "BenchmarkTest01821": {
+    "sources": [],
+    "sinks": [
+      "L66 println: getWriter().println(\"Your query results are: \" + result + \"<br/>\")",
+      "L64 evaluate: xp.evaluate(expression, xmlDocument)",
+      "L71 println: getWriter().println(\"Error parsing XPath input: '\" + org.owasp.esapi.ESAPI.encoder().encodeForHTML(b"
+    ]
+  },
+  "BenchmarkTest01893": {
+    "sources": [
+      "L41 getRequestURI: getRequestURI()",
+      "L54 getCookies: getCookies()"
+    ],
+    "sinks": [
+      "L39 setSecure: setSecure(true)",
+      "L43 addCookie: addCookie(userCookie)",
+      "L88 println: getWriter().println(\"Your query results are: <br/>\")",
+      "L97 println: getWriter().println(\"Error parsing XPath input: '\" + org.owasp.esapi.ESAPI.encoder().encodeForHTML(b",
+      "L85 evaluate: xp.compile(expression).evaluate(xmlDocument, javax.xml.xpath.XPathConstants.NODESET)",
+      "L92 println: getWriter().println(value.getTextContent() + \"<br/>\")"
+    ]
+  },
+  "BenchmarkTest00117": {
+    "sources": [
+      "L41 getRequestURI: getRequestURI()",
+      "L54 getCookies: getCookies()"
+    ],
+    "sinks": [
+      "L39 setSecure: setSecure(true)",
+      "L43 addCookie: addCookie(userCookie)",
+      "L93 println: getWriter().println(\"Your query results are: <br/>\")",
+      "L102 println: getWriter().println(\"Error parsing XPath input: '\" + org.owasp.esapi.ESAPI.encoder().encodeForHTML(b",
+      "L90 evaluate: xp.compile(expression).evaluate(xmlDocument, javax.xml.xpath.XPathConstants.NODESET)",
+      "L97 println: getWriter().println(value.getTextContent() + \"<br/>\")"
+    ]
+  },
+  "BenchmarkTest01479": {
+    "sources": [],
+    "sinks": [
+      "L82 println: getWriter().println(\"Your query results are: <br/>\")",
+      "L91 println: getWriter().println(\"Error parsing XPath input: '\" + org.owasp.esapi.ESAPI.encoder().encodeForHTML(b",
+      "L79 evaluate: xp.compile(expression).evaluate(xmlDocument, javax.xml.xpath.XPathConstants.NODESET)",
+      "L86 println: getWriter().println(value.getTextContent() + \"<br/>\")"
+    ]
+  },
+  "BenchmarkTest02370": {
+    "sources": [],
+    "sinks": [
+      "L82 println: getWriter().println(\"Your query results are: <br/>\")",
+      "L91 println: getWriter().println(\"Error parsing XPath input: '\" + org.owasp.esapi.ESAPI.encoder().encodeForHTML(b",
+      "L79 evaluate: xp.compile(expression).evaluate(xmlDocument, javax.xml.xpath.XPathConstants.NODESET)",
+      "L86 println: getWriter().println(value.getTextContent() + \"<br/>\")"
+    ]
+  },
+  "BenchmarkTest01633": {
+    "sources": [],
+    "sinks": [
+      "L67 println: getWriter().println(\"Your query results are: \" + result + \"<br/>\")",
+      "L65 evaluate: xp.evaluate(expression, xmlDocument)",
+      "L72 println: getWriter().println(\"Error parsing XPath input: '\" + org.owasp.esapi.ESAPI.encoder().encodeForHTML(b"
+    ]
+  }
+}

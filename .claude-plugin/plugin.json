@@ -1,0 +1,8 @@
+{
+  "name": "joern-cpg-analysis",
+  "version": "0.1.0",
+  "description": "Build and query Joern Code Property Graphs for structural code investigation. Enables call graph traversal, data flow analysis, and vulnerability detection beyond what text search can provide.",
+  "author": {
+    "name": "Paul"
+  }
+}

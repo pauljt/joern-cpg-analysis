@@ -1,6 +1,6 @@
 # LLM vs LLM+Joern vs LLM+TrailMark: Security Audit Benchmark
 
-Does giving an LLM structural code analysis improve its ability to find vulnerabilities? Yes — dramatically.
+This repo is a quick investigation into giving an LLM structural code analysis improve its ability to find vulnerabilities. While I was playing with this Trail of Bits published [Trailmark](https://blog.trailofbits.com/2026/04/23/trailmark-turns-code-into-graphs/) so I added that to the comparison too. 
 
 | Arm | F1 Score | Accuracy | Precision | Recall | Cost |
 |-----|----------|----------|-----------|--------|------|
